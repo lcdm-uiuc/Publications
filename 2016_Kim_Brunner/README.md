@@ -1,0 +1,32 @@
+# Star-galaxy Classification Using Deep Convolutional Neural Networks
+
+## Authors
+
+Edward J Kim and Robert J Brunner
+
+## Abstract
+
+Most existing star-galaxy classifiers use the reduced summary information from catalogs,
+requiring careful feature extraction and selection.
+The latest advances in machine learning that use deep convolutional neural networks
+allow a machine to automatically learn the features directly from data,
+minimizing the need for input from human experts.
+We present a star-galaxy classification framework that uses
+deep convolutional neural networks (ConvNets) directly on the reduced, calibrated pixel values.
+Using data from the Sloan Digital Sky Survey (SDSS) and
+the Canada-France-Hawaii Telescope Lensing Survey (CFHTLenS),
+we demonstrate that ConvNets are able to produce accurate and well-calibrated
+probabilistic classifications that are competitive with
+conventional machine learning techniques.
+Future advances in deep learning may bring more success with current and
+forthcoming photometric surveys, such as the Dark Energy Survey (DES) and
+the Large Synoptic Survey Telescope (LSST), because deep neural networks require
+very little, manual feature engineering.
+
+## Paper
+
+The PDF file is available at [https://github.com/UI-DataScience/Publications/raw/master/2016_Kim_Brunner/main.pdf](https://github.com/UI-DataScience/Publications/raw/master/2016_Kim_Brunner/main.pdf).
+
+## Code
+
+The code is available at [https://github.com/EdwardJKim/dl4astro](https://github.com/EdwardJKim/dl4astro).
