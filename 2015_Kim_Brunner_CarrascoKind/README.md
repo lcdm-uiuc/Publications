@@ -34,7 +34,7 @@ such as the Dark Energy Survey and the Large Synoptic Survey Telescope.
 
 - Monthly Notices of the Royal Astronomical Society, Volume 453, Issue 1, p.507-521
 
-[arXiv:1505.02200](http://adsabs.harvard.edu/abs/2015MNRAS.453..507K)
+[arXiv:1505.02200](http://arxiv.org/abs/1505.02200)
 
 [SAO/NASA ADS](http://adsabs.harvard.edu/abs/2015MNRAS.453..507K)
 
