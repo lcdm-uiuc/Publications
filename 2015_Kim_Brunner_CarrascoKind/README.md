@@ -32,7 +32,28 @@ such as the Dark Energy Survey and the Large Synoptic Survey Telescope.
 
 ## Paper
 
+- Monthly Notices of the Royal Astronomical Society, Volume 453, Issue 1, p.507-521
+
+[arXiv:1505.02200](http://adsabs.harvard.edu/abs/2015MNRAS.453..507K)
+[SAO/NASA ADS](http://adsabs.harvard.edu/abs/2015MNRAS.453..507K)
+
+BibTeX entry:
+```
+@article{kim2015hybrid,
+  title={A hybrid ensemble learning approach to star--galaxy classification},
+  author={Kim, Edward J and Brunner, Robert J and Kind, Matias Carrasco},
+  journal={Monthly Notices of the Royal Astronomical Society},
+  volume={453},
+  number={1},
+  pages={507--521},
+  year={2015},
+  publisher={Oxford University Press}
+}
+```
+
 The PDF file is available at [https://github.com/UI-DataScience/Publications/raw/master/2015_Kim_Brunner_CarrascoKind/main.pdf](https://github.com/UI-DataScience/Publications/raw/master/2015_Kim_Brunner_CarrascoKind/main.pdf).
+
+
 
 ## Code
 
