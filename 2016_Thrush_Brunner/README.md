@@ -1,4 +1,4 @@
-#### Ascertaining Galaxy Redshifts Using Deep Convolutional Neural Networks ####
+### Ascertaining Galaxy Redshifts Using Deep Convolutional Neural Networks ###
 
 ## Authors ##
 Samantha E. Thrush and Robert J. Brunner
