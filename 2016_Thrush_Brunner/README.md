@@ -1,9 +1,9 @@
-### Ascertaining Galaxy Redshifts Using Deep Convolutional Neural Networks ###
+# Ascertaining Galaxy Redshifts Using Deep Convolutional Neural Networks 
 
-## Authors ##
+## Authors 
 Samantha E. Thrush and Robert J. Brunner
 
-## Abstract ## 
+## Abstract 
 When large data sets of galaxies are collected, their associated redshifts are usually collected
 by finding their photometric redshifts, which takes additional time for a survery to complete.
 However, if deep learning via deep convolutional neural networks (ConvNets) are utilized,
@@ -13,6 +13,6 @@ reduced and pixelated galaxy images and redshift data from the Sloan Digital Sky
 (SDSS). We will show that ConvNets are able to accurately predict the redshift of a sample
 galaxy image in a way that is competitive with previous works on this subject.
 
-## Paper ##
+## Paper 
 The PDF file is available at https://github.com/UI-DataScience/Publications/raw/master/2016_Thrush_Brunner/main.pdf.
 
