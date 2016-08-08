@@ -2,47 +2,47 @@ This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: mnras.bst
-Database file #1: sg_paper.bib
+Database file #1: photz_paper.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 70 entries,
+You've used 4 entries,
             2881 wiz_defined-function locations,
-            1121 strings with 19638 characters,
-and the built_in function-call counts, 33721 in all, are:
-= -- 2755
-> -- 2382
-< -- 197
-+ -- 1101
-- -- 316
-* -- 3651
-:= -- 5263
+            754 strings with 13587 characters,
+and the built_in function-call counts, 1653 in all, are:
+= -- 148
+> -- 92
+< -- 8
++ -- 48
+- -- 6
+* -- 202
+:= -- 249
 add.period$ -- 0
-call.type$ -- 70
-change.case$ -- 140
-chr.to.int$ -- 68
-cite$ -- 70
-duplicate$ -- 1735
-empty$ -- 1805
-format.name$ -- 548
-if$ -- 6012
-int.to.chr$ -- 3
+call.type$ -- 4
+change.case$ -- 8
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 86
+empty$ -- 89
+format.name$ -- 22
+if$ -- 281
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 70
-newline$ -- 226
-num.names$ -- 502
-pop$ -- 423
+missing$ -- 4
+newline$ -- 25
+num.names$ -- 22
+pop$ -- 16
 preamble$ -- 1
-purify$ -- 280
+purify$ -- 16
 quote$ -- 0
-skip$ -- 1113
+skip$ -- 53
 stack$ -- 0
-substring$ -- 1923
-swap$ -- 905
-text.length$ -- 293
+substring$ -- 104
+swap$ -- 28
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 624
+type$ -- 36
 warning$ -- 0
-while$ -- 538
+while$ -- 28
 width$ -- 0
-write$ -- 707
+write$ -- 52

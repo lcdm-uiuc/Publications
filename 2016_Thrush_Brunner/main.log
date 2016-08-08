@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.3)  16 JUL 2016 07:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.3)  8 AUG 2016 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,320 +878,54 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
 
-Underfull \hbox (badness 1831) in paragraph at lines 113--114
-\T1/txr/m/n/9 MUST BE A BLANK LINE IN BE-TWEEN TWO PARA-
- []
+Underfull \vbox (badness 5939) has occurred while \output is active []
 
-<figures/sdss_color_color.pdf, id=82, 681.43396pt x 441.65793pt>
-File: figures/sdss_color_color.pdf Graphic file (type pdf)
-
-<use figures/sdss_color_color.pdf>
-Package pdftex.def Info: figures/sdss_color_color.pdf used on input line 125.
-(pdftex.def)             Requested size: 240.0pt x 155.55302pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 137.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-)
-Underfull \hbox (badness 5578) in paragraph at lines 137--138
-[]\T1/txr/m/n/9 AN EX-AM-PLE OF "COMPUTER-LOOKING" TEXT:
- []
-
-<figures/clens_color_color.pdf, id=89, 681.43396pt x 434.59238pt>
-File: figures/clens_color_color.pdf Graphic file (type pdf)
-
-<use figures/clens_color_color.pdf>
-Package pdftex.def Info: figures/clens_color_color.pdf used on input line 163.
-(pdftex.def)             Requested size: 240.0pt x 153.06451pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 177.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 129.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 177.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 129.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./figures/sdss_color_color.pdf>]
-<figures/neuron.pdf, id=169, 227.31023pt x 139.64873pt>
-File: figures/neuron.pdf Graphic file (type pdf)
-
-<use figures/neuron.pdf>
-Package pdftex.def Info: figures/neuron.pdf used on input line 186.
-(pdftex.def)             Requested size: 148.17915pt x 91.03908pt.
-
-<figures/network.pdf, id=170, 170.6375pt x 162.6075pt>
-File: figures/network.pdf Graphic file (type pdf)
-
-<use figures/network.pdf>
-Package pdftex.def Info: figures/network.pdf used on input line 192.
-(pdftex.def)             Requested size: 148.17915pt x 141.2143pt.
- [2 <./figures/clens_color_color.pdf>] [3 <./figures/neuron.pdf> <./figures/net
-work.pdf>]
-<figures/clens_mag.pdf, id=336, 403.75531pt x 502.34863pt>
-File: figures/clens_mag.pdf Graphic file (type pdf)
-
-<use figures/clens_mag.pdf>
-Package pdftex.def Info: figures/clens_mag.pdf used on input line 482.
-(pdftex.def)             Requested size: 240.0pt x 298.60603pt.
-
-<figures/clens_integrated.pdf, id=337, 409.13478pt x 390.33015pt>
-File: figures/clens_integrated.pdf Graphic file (type pdf)
-
-<use figures/clens_integrated.pdf>
-Package pdftex.def Info: figures/clens_integrated.pdf used on input line 503.
-(pdftex.def)             Requested size: 240.0pt x 228.97057pt.
-
-<figures/clens_g_r.pdf, id=342, 403.75531pt x 500.98416pt>
-File: figures/clens_g_r.pdf Graphic file (type pdf)
-
-<use figures/clens_g_r.pdf>
-Package pdftex.def Info: figures/clens_g_r.pdf used on input line 520.
-(pdftex.def)             Requested size: 240.0pt x 297.79495pt.
-
-<figures/clens_calibration_conv.pdf, id=345, 542.45943pt x 389.5287pt>
-File: figures/clens_calibration_conv.pdf Graphic file (type pdf)
-
-<use figures/clens_calibration_conv.pdf>
-Package pdftex.def Info: figures/clens_calibration_conv.pdf used on input line 
-531.
-(pdftex.def)             Requested size: 246.96277pt x 177.33687pt.
-
-<figures/clens_calibration_tpc.pdf, id=350, 542.45943pt x 391.5362pt>
-File: figures/clens_calibration_tpc.pdf Graphic file (type pdf)
-
-<use figures/clens_calibration_tpc.pdf>
-Package pdftex.def Info: figures/clens_calibration_tpc.pdf used on input line 5
-45.
-(pdftex.def)             Requested size: 246.96277pt x 178.25081pt.
-
-<figures/galaxy_original.pdf, id=353, 254.12755pt x 254.52234pt>
-File: figures/galaxy_original.pdf Graphic file (type pdf)
-
-<use figures/galaxy_original.pdf>
-Package pdftex.def Info: figures/galaxy_original.pdf used on input line 557.
-(pdftex.def)             Requested size: 120.96277pt x 121.14792pt.
-
-<figures/galaxy_conv11.pdf, id=354, 449.68pt x 449.68pt>
-File: figures/galaxy_conv11.pdf Graphic file (type pdf)
-
-<use figures/galaxy_conv11.pdf>
-Package pdftex.def Info: figures/galaxy_conv11.pdf used on input line 563.
-(pdftex.def)             Requested size: 120.96277pt x 120.96236pt.
-
-<figures/galaxy_conv21.pdf, id=355, 449.68pt x 449.68pt>
-File: figures/galaxy_conv21.pdf Graphic file (type pdf)
-
-<use figures/galaxy_conv21.pdf>
-Package pdftex.def Info: figures/galaxy_conv21.pdf used on input line 569.
-(pdftex.def)             Requested size: 120.96277pt x 120.96236pt.
-
-<figures/galaxy_conv31.pdf, id=356, 449.68pt x 411.5375pt>
-File: figures/galaxy_conv31.pdf Graphic file (type pdf)
-
-<use figures/galaxy_conv31.pdf>
-Package pdftex.def Info: figures/galaxy_conv31.pdf used on input line 575.
-(pdftex.def)             Requested size: 120.96277pt x 110.70215pt.
-
-<figures/star_original.pdf, id=357, 254.12755pt x 254.52234pt>
-File: figures/star_original.pdf Graphic file (type pdf)
-
-<use figures/star_original.pdf>
-Package pdftex.def Info: figures/star_original.pdf used on input line 597.
-(pdftex.def)             Requested size: 120.96277pt x 121.14792pt.
-
-<figures/star_conv11.pdf, id=358, 449.68pt x 449.68pt>
-File: figures/star_conv11.pdf Graphic file (type pdf)
-
-<use figures/star_conv11.pdf>
-Package pdftex.def Info: figures/star_conv11.pdf used on input line 603.
-(pdftex.def)             Requested size: 120.96277pt x 120.96236pt.
-
-<figures/star_conv21.pdf, id=359, 449.68pt x 449.68pt>
-File: figures/star_conv21.pdf Graphic file (type pdf)
-
-<use figures/star_conv21.pdf>
-Package pdftex.def Info: figures/star_conv21.pdf used on input line 609.
-(pdftex.def)             Requested size: 120.96277pt x 120.96236pt.
-
-<figures/star_conv31.pdf, id=360, 449.68pt x 411.5375pt>
-File: figures/star_conv31.pdf Graphic file (type pdf)
-
-<use figures/star_conv31.pdf>
-Package pdftex.def Info: figures/star_conv31.pdf used on input line 615.
-(pdftex.def)             Requested size: 120.96277pt x 110.70215pt.
-
-<figures/sdss_mag.pdf, id=364, 402.65746pt x 507.2027pt>
-File: figures/sdss_mag.pdf Graphic file (type pdf)
-
-<use figures/sdss_mag.pdf>
-Package pdftex.def Info: figures/sdss_mag.pdf used on input line 658.
-(pdftex.def)             Requested size: 240.0pt x 302.31175pt.
-
-<figures/sdss_integrated.pdf, id=365, 433.62pt x 433.62pt>
-File: figures/sdss_integrated.pdf Graphic file (type pdf)
-
-<use figures/sdss_integrated.pdf>
-Package pdftex.def Info: figures/sdss_integrated.pdf used on input line 666.
-(pdftex.def)             Requested size: 240.0pt x 240.00029pt.
-
-<figures/sdss_g_r.pdf, id=366, 403.69258pt x 505.83823pt>
-File: figures/sdss_g_r.pdf Graphic file (type pdf)
-
-<use figures/sdss_g_r.pdf>
-Package pdftex.def Info: figures/sdss_g_r.pdf used on input line 674.
-(pdftex.def)             Requested size: 240.0pt x 300.72662pt.
-
-<figures/sdss_calibration_conv.pdf, id=369, 542.45943pt x 389.5287pt>
-File: figures/sdss_calibration_conv.pdf Graphic file (type pdf)
-
-<use figures/sdss_calibration_conv.pdf>
-Package pdftex.def Info: figures/sdss_calibration_conv.pdf used on input line 6
-84.
-(pdftex.def)             Requested size: 246.96277pt x 177.33687pt.
-
-<figures/sdss_calibration_tpc.pdf, id=370, 542.45943pt x 391.5362pt>
-File: figures/sdss_calibration_tpc.pdf Graphic file (type pdf)
-
-<use figures/sdss_calibration_tpc.pdf>
-Package pdftex.def Info: figures/sdss_calibration_tpc.pdf used on input line 69
-1.
-(pdftex.def)             Requested size: 246.96277pt x 178.25081pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 731--742
-[]\T1/txr/m/n/9 This work is based on ob-ser-va-tions ob-tained with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 731--742
-\T1/txr/m/n/9 MegaPrime/MegaCam, a joint project of CFHT and
- []
-
-
-Underfull \vbox (badness 2057) has occurred while \output is active []
-
- [4 <./figures/clens_mag.pdf>] (./main.bbl [5 <./figures/clens_integrated.pdf> 
-<./figures/clens_g_r.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/clens_g_r.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
->] [6 <./figures/clens_calibration_conv.pdf> <./figures/clens_calibration_tpc.p
-df
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/clens_calibration_tpc.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
-> <./figures/galaxy_original.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/galaxy_original.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
-> <./figures/galaxy_conv11.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/galaxy_conv11.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
-> <./figures/galaxy_conv21.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/galaxy_conv21.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
-> <./figures/galaxy_conv31.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/galaxy_conv31.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
-> <./figures/star_original.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/star_original.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
-> <./figures/star_conv11.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/star_conv11.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
-> <./figures/star_conv21.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/star_conv21.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
-> <./figures/star_conv31.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/star_conv31.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 3189) in paragraph at lines 111--113
-[]\T1/txr/m/n/8 Dieleman S., De Fauw J., Kavukcuoglu K., 2016, arXiv preprint
- []
-
-[7 <./figures/sdss_mag.pdf> <./figures/sdss_integrated.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/sdss_integrated.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
-> <./figures/sdss_g_r.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/sdss_g_r.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
->]
-Underfull \hbox (badness 3250) in paragraph at lines 255--257
-[]\T1/txr/m/n/8 Saxe A. M., Mc-Clel-land J. L., Gan-guli S., 2013, arXiv prepri
-nt
- []
-
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 770.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8 <./figures/sdss_calibration_conv.pdf> <./figures/sdss_calibration_tpc.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figures/sdss_calibration_tpc.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
->]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 770.
+] (./main.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 770.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 770.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 209.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 86C817B75905D1D9014B0A8249E8DD6F;1129.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 770.
+(rerunfilecheck)             Checksum: C7E6224D70137E2166EFFA778E766242;1092.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
  ) 
 Here is how much of TeX's memory you used:
- 9755 strings out of 493304
- 143476 string characters out of 6139872
- 246706 words of memory out of 5000000
- 12850 multiletter control sequences out of 15000+600000
- 100698 words of font info for 188 fonts, out of 8000000 for 9000
+ 9188 strings out of 493304
+ 131182 string characters out of 6139872
+ 224427 words of memory out of 5000000
+ 12444 multiletter control sequences out of 15000+600000
+ 69644 words of font info for 123 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,15n,38p,831b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,38p,822b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 728306 bytes).
+texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
+mb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (2 pages, 63964 bytes).
 PDF statistics:
- 1990 PDF objects out of 2073 (max. 8388607)
- 1061 compressed objects within 11 object streams
- 135 named destinations out of 1000 (max. 500000)
- 255 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
