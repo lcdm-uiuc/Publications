@@ -26,8 +26,11 @@ Alam S.,  et~al., 2015, \mn@doi [The Astrophysical Journal Supplement Series]
 Hildebrandt H.,  et~al., 2010, \mn@doi [Astronomy and Astrophysics]
   {10.1051/0004-6361/201014885}, 523, A31
 
+\bibitem[\protect\citeauthoryear{Hubble}{Hubble}{1929}]{hubble_relation_1929}
+Hubble E.,  1929, \mn@doi [PNAS] {10.1073/pnas.15.3.168}, 15, 168
+
 \bibitem[\protect\citeauthoryear{Li \& Thakar}{Li \&
-  Thakar}{2008}]{thakar_casjobs}
+  Thakar}{2008}]{li_casjobs_2008}
 Li N.,  Thakar A.~R.,  2008, \mn@doi [Computing in Science Engineering]
   {10.1109/MCSE.2008.6}, 10, 18
 
