@@ -1,17 +1,18 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Literature Review}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Sloan Digital Sky Survey}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Neural Networks and Photometric Redshifts}{section.2}% 4
-\BOOKMARK [1][-]{section.3}{Methodology}{}% 5
-\BOOKMARK [2][-]{subsection.3.1}{Data Selection}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.2}{Data Processing}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.3}{Neural Network Code}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.4}{Band Pass Trials}{section.3}% 9
-\BOOKMARK [1][-]{section.4}{Results and Discussion}{}% 10
-\BOOKMARK [2][-]{subsection.4.1}{Five Band Pass Results}{section.4}% 11
-\BOOKMARK [2][-]{subsection.4.2}{Four Band Pass Results}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.3}{Three Band Pass Results}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.4}{Two Band Pass Results}{section.4}% 14
-\BOOKMARK [2][-]{subsection.4.5}{One Band Pass Results}{section.4}% 15
-\BOOKMARK [2][-]{subsection.4.6}{Discussion}{section.4}% 16
-\BOOKMARK [1][-]{section.5}{Conclusions}{}% 17
+\BOOKMARK [1][-]{section.2}{Background}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Previous Works}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Sloan Digital Sky Survey}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Neural Networks and Photometric Redshifts}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Methodology}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Data Selection}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Data Processing}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Neural Network Code}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.4}{Band Pass Trials}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Results and Discussion}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Five Band Pass Results}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Four Band Pass Results}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.3}{Three Band Pass Results}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.4}{Two Band Pass Results}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.5}{One Band Pass Results}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.6}{Discussion}{section.4}% 17
+\BOOKMARK [1][-]{section.5}{Conclusions}{}% 18

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.3)  9 AUG 2016 22:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.3)  12 AUG 2016 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,43 +877,38 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 122.
 
-Underfull \hbox (badness 1152) in paragraph at lines 112--113
-\T1/txr/m/n/9 idea did not come to fruition in a widespread man-ner un-til
- []
-
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 124.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 122.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-Underfull \vbox (badness 1888) has occurred while \output is active []
+] (./main.bbl [2])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
+ [3
 
- (./main.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 211.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 220.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C7E6224D70137E2166EFFA778E766242;1092.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
+(rerunfilecheck)             Checksum: 0CF1DFD261898834A4278F2C574CF5B2;1149.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
  ) 
 Here is how much of TeX's memory you used:
- 9192 strings out of 493304
- 131295 string characters out of 6139872
- 225458 words of memory out of 5000000
- 12447 multiletter control sequences out of 15000+600000
+ 9196 strings out of 493304
+ 131346 string characters out of 6139872
+ 227495 words of memory out of 5000000
+ 12449 multiletter control sequences out of 15000+600000
  69644 words of font info for 123 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,15n,38p,952b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,38p,1022b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -923,10 +918,10 @@ fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 65422 bytes).
+Output written on main.pdf (3 pages, 67555 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
