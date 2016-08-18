@@ -17,26 +17,59 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
-\bibitem[\protect\citeauthoryear{Alam et~al.,}{Alam et~al.}{2015}]{alam_DR12}
-Alam S.,  et~al., 2015, \mn@doi [The Astrophysical Journal Supplement Series]
-  {10.1088/0067-0049/219/1/12}, 219, 12
+\bibitem[\protect\citeauthoryear{Alam et~al.,}{Alam
+  et~al.}{2015}]{alam_eleventh_2015}
+Alam S.,  et~al., 2015, \mn@doi [ApJS] {10.1088/0067-0049/219/1/12}, 219, 12
+
+\bibitem[\protect\citeauthoryear{Baum}{Baum}{1962}]{baum_photoelectric_1962}
+Baum W.~A.,  1962. p.~390, \url
+  {http://adsabs.harvard.edu/abs/1962IAUS...15..390B}
+
+\bibitem[\protect\citeauthoryear{Collister \& Lahav}{Collister \&
+  Lahav}{2004}]{collister_annz:_2004}
+Collister A.~A.,  Lahav O.,  2004, \mn@doi [PASP] {10.1086/383254}, 116, 345
+
+\bibitem[\protect\citeauthoryear{Connolly, Csabai, Szalay, Koo, Kron  \&
+  Munn}{Connolly et~al.}{1995}]{connolly_slicing_1995}
+Connolly A.~J.,  Csabai I.,  Szalay A.~S.,  Koo D.~C.,  Kron R.~G.,   Munn
+  J.~A.,  1995, \mn@doi [AJ] {10.1086/117720}, 110, 2655
+
+\bibitem[\protect\citeauthoryear{Cunha, Huterer, Busha  \& Wechsler}{Cunha
+  et~al.}{2012}]{cunha_sample_2012}
+Cunha C.~E.,  Huterer D.,  Busha M.~T.,   Wechsler R.~H.,  2012, \mn@doi
+  [MNRAS] {10.1111/j.1365-2966.2012.20927.x}, 423, 909
 
 \bibitem[\protect\citeauthoryear{Hildebrandt et~al.,}{Hildebrandt
-  et~al.}{2010}]{hildebrandt_phat}
-Hildebrandt H.,  et~al., 2010, \mn@doi [Astronomy and Astrophysics]
-  {10.1051/0004-6361/201014885}, 523, A31
+  et~al.}{2010}]{hildebrandt_phat:_2010}
+Hildebrandt H.,  et~al., 2010, \mn@doi [A\&A] {10.1051/0004-6361/201014885},
+  523, A31
+
+\bibitem[\protect\citeauthoryear{Hoyle}{Hoyle}{2015}]{hoyle_measuring_2015}
+Hoyle B.,  2015, arXiv:1504.07255 [astro-ph, physics:physics]
 
 \bibitem[\protect\citeauthoryear{Hubble}{Hubble}{1929}]{hubble_relation_1929}
 Hubble E.,  1929, \mn@doi [PNAS] {10.1073/pnas.15.3.168}, 15, 168
+
+\bibitem[\protect\citeauthoryear{Koo}{Koo}{1985}]{koo_optical_1985}
+Koo D.~C.,  1985, \mn@doi [ApJ] {10.1086/113748}, 90, 418
+
+\bibitem[\protect\citeauthoryear{LeCun, Bengio  \& Hinton}{LeCun
+  et~al.}{2015}]{lecun_deep_2015}
+LeCun Y.,  Bengio Y.,   Hinton G.,  2015, \mn@doi [Nature]
+  {10.1038/nature14539}, 521, 436
 
 \bibitem[\protect\citeauthoryear{Li \& Thakar}{Li \&
   Thakar}{2008}]{li_casjobs_2008}
 Li N.,  Thakar A.~R.,  2008, \mn@doi [Computing in Science Engineering]
   {10.1109/MCSE.2008.6}, 10, 18
 
+\bibitem[\protect\citeauthoryear{Puschell, Owen  \& Laing}{Puschell
+  et~al.}{1982}]{puschell_near-infrared_1982}
+Puschell J.~J.,  Owen F.~N.,   Laing R.~A.,  1982, \mn@doi [ApJ]
+  {10.1086/183808}, 257, L57
+
 \bibitem[\protect\citeauthoryear{York}{York}{2000}]{york_sloan_2000}
-York D.~G.,  2000, \mn@doi [The Astronomical Journal] {10.1086/301513}, 120,
-  1579
+York D.~G.,  2000, \mn@doi [AJ] {10.1086/301513}, 120, 1579
 
 \makeatother
 \end{thebibliography}

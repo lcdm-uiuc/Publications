@@ -107,11 +107,13 @@ methods: data analysis -- techniques: image processing -- methods: statistical
 
 \section{Introduction}
   \label{sec:introduction}
-Before the advent of photometric redshift techniques, finding a galaxy's redshift required the collection of the galaxy's spectra so as to ascertain its recession speed and thus its distance and redshift from the observer using Hubble's Law ~\citep{hubble_relation_1929}. Unfortunately, even in large scale surveys like the Sloan Digital Sky Survey, spectroscopy can only be done on a select number of targets at a time due to time constraints since spectra take approximately an hour to observe (nine spectroscopic plates are completed in a night).  Additionally, due to the usage of an aluminum plate and optical fiber system or a single-slit setup, which are used to prevent the spectra from being tainted by extraneous light, only a small subset of galaxies may be observed at a time, thus further reducing the number of objects a survey can collect spectroscopic data on.
+Before the advent of photometric redshift techniques, finding a galaxy's redshift required the collection of the galaxy's spectra so as to ascertain its recession speed and thus its distance and redshift from the observer using Hubble's Law ~\citep{hubble_relation_1929}. Unfortunately, even in large scale surveys like the Sloan Digital Sky Survey, spectroscopy can only be done on a select number of targets at a time due to time constraints since spectra take approximately an hour to observe (nine spectroscopic plates are completed in a night).  Additionally, due to the usage of an aluminum plate and optical fiber system, or a single-slit setup (which are used to prevent the spectra from being tainted by extraneous light) only a small subset of galaxies may be observed at a time, thus further reducing the number of objects a survey can collect spectroscopic data on.
 
-In contrast, photometric images allow many more targets to be observed since each image taken requires a comparatively shorter exposure time (54.1 seconds for each photometric band of the Sloan Digital Sky Survey) ~\citep{york_sloan_2000}.  In addition, since there is no need to block out extraneous light (as is the case with spectroscopy), photometry can be done without the use of aluminum observing plates, which allows observers to observe all of the objects within a single frame.  Because of this, the idea of only using an object's image to ascertain its redshift is very attractive.
+In contrast, photometric images allow many more targets to be observed since each image taken requires a comparatively shorter exposure time (54.1 seconds for each photometric band of the Sloan Digital Sky Survey) ~\citep{york_sloan_2000}.  In addition, since there is no need to block out extraneous light, photometry can be done without the use of aluminum observing plates or slits, which allows observers to observe all of the objects within a single frame.  Because of this, the idea of only using an object's image to ascertain its redshift is extremely attractive.
 
-Photometric redshift techniques did not come without pitfalls. The initial techniques (Baum, 1962, 1982, 1985, 1996)only worked on small subsets of galaxies. But with the application of machine learning to the problem, it was then possible to find photometric redshifts of all types of galaxies, to varying degrees of success, with the drawbacks of needed computational power and large training sets.  One such technique that was successful was deep learning with the use of neural networks, which will be the focus of this paper.
+TALK ABOUT THE HUGE AMOUNT OF DATA AND WHY PHOTOZS WOULD HELP (BY WHAT FACTOR)!!
+
+Photometric redshift techniques did not come without pitfalls. The initial techniques ~\citep{baum_photoelectric_1962, puschell_near-infrared_1982, koo_optical_1985, connolly_slicing_1995} could only work on small subsets of galaxies with certain characteristics. Fortunately, the application of machine learning to the problem (citations needed) solved two main issues: it was then possible to find photometric redshifts of all types of galaxies, to varying degrees of success ~\citep{hildebrandt_phat:_2010}; and these techniques are particularly well equipped to work with very large amounts of data (citation needed).  One such successful technique was deep learning with the use of neural networks.  Although this technique needs large training sets in order to accurately predict redshifts, such techniques have achieved prediction accuracy of over 95\% in previous works ~\citep{hoyle_measuring_2015}. 
 
 In this paper, we will first review previous works, present integral themes, and take a foray into the underlying mathematics of this subject in Section ~\ref{sec:review}.  In Section ~\ref{sec:method}, the Deep Learning code and the selection of the data set from the Sloan Digital Sky Survey (SDSS) will be discussed, as well as key ways this body of work differs from previous works.  Section ~\ref{sec:results_and_discussion} will contain the results of the Deep Learning code, which will be subsequently discussed and analyzed.  Finally, Section ~\ref{sec:conclusions} will contain the conclusions of this paper as well as future goals.
 
@@ -121,20 +123,39 @@ Ascertaining the redshifts of galaxies using spectroscopic data has classically 
 
 \subsection{Previous Works}
  \label{sec:prev_work}
-Using an object's photometric image to find its redshift (hence-forth known as finding an object's photo-z) was first successfully done by William A. Baum in his paper "Photoelectric Magnitudes and Red-shifts" wherein he created a makeshift spectrum by gathering the magnitudes of each galaxy at multiple bandpasses and creating plots of wavelength versus magnitude, which made a make-shift spectra.  Unfortunately, the main downfall of his method was that it only worked for elliptical galaxies.  Additionally, due to the fact that the magnitudes of the galaxies were measured with a photometer, this meant that Baum could only gather data on one galaxy at a time, thus further harming the feasibility of scaling up this technique to a large number of galaxies(Baum paper).
+Using an object's photometric image to find its redshift (hence-forth known as finding an object's photo-z) was first successfully done in the paper "Photoelectric Magnitudes and Red-shifts" wherein the author created a makeshift spectrum by gathering the magnitudes of each galaxy at multiple bandpasses and creating plots of wavelength versus magnitude, which made a make-shift spectra.  Unfortunately, the main downfall of his method was that it only worked for elliptical galaxies.  Additionally, due to the fact that the magnitudes of the galaxies were measured with a photometer, this meant that Baum could only gather data on one galaxy at a time, thus further harming the feasibility of scaling up this technique to a large number of galaxies ~\citep{baum_photoelectric_1962}.
 
-*** NEED TO EXPAND HERE***
-Other photo-z techniques included the use of color-shape plots of that worked for all types of galaxies(Koo 1985), but each of these techniques only worked on a small subset of galaxie.  However, in 1985,   in a widespread manner until ***YEAR*** (citation needed).  This was when ***Event*** happened.  The main limiting factor to the advent of finding photo-z's was computational power; 
+Other early photo-z techniques included the use of color-shape plots, which worked in the following way: used lines of constant redshift lines  that worked for all types of galaxies(Koo 1985), but each of these techniques only worked on a small subset of galaxies.
+
+in a widespread manner until ***YEAR*** (citation needed).  This was when ***Event*** happened.  The main limiting factor to the advent of finding photo-z's was computational power; 
 *** NEED TO EXPAND HERE***
  
 \subsection{Sloan Digital Sky Survey}
   \label{sec:sdss}
-The Sloan Digital Sky Survey Data Release 12 ~\citep[SDSS-DR12;][]{alam_DR12}, which includes data from phases I-III (April 2000 through 14 July 2014), has served the astronomical community by providing photometric data on 14,555 square degrees of the sky (approximately one-third of the sky), resulting in the observation of approximately 470 million individual targets in five different bands (u, g, r, i, and z), with magnitudes brighter, or comparable to 22 (the limiting magnitude). Of these targets, only approximately 200 million are galaxies.  In addition to photometric information, SDSS-DR12 also provides spectroscopic data on over 4.35 million targets, 2.4 million of which are galaxies.
+  
+The Sloan Digital Sky Survey was conceived for the purpose of collecting as much information about the sky as possible; it's initial objective was to collect images and spectra of   started science measurements in April of 2000 ~\citep{york_sloan_2000}.
+
+The Sloan Digital Sky Survey Data Release 12 ~\citep[SDSS-DR12;][]{alam_eleventh_2015}, which includes data from phases I-III (April 2000 through 14 July 2014), has served the astronomical community by providing photometric data on 14,555 square degrees of the sky (approximately one-third of the sky), resulting in the observation of approximately 470 million individual targets in five different bands (u, g, r, i, and z), with magnitudes brighter, or comparable to 22 (the limiting magnitude). Of these targets, only approximately 200 million are galaxies.  In addition to photometric information, SDSS-DR12 also provides spectroscopic data on over 4.35 million targets, 2.4 million of which are galaxies.  Due to the sheer number of photometrically and spectroscopically collected galaxies in this survey, SDSS-DR12 is a fertile ground for harvesting data for training a code for photometric redshifts.
   
 \subsection{Neural Networks and Photometric Redshifts}
   \label{sec:nn_and_photoz}
 
-There are many different ways of ascertaining a galaxy's photometric redshift using machine learning, as was shown in the PHAT Photo-z data trial ~\citep{hildebrandt_phat}.
+Deep learning is a very
+
+Deep learning ~\citep{lecun_deep_2015}, like its name implies is a more in depth kind of machine learning.  In this kind of learning, images are passed in to a deep neural network, which is composed of artificial neurons organized in layers of nodes, so as to train the code.  In order to be considered a deep neural network, there must be at least two hidden layers of nodes; that is, there must be at least two layers in between the input layer which recieves images and the output layer.  Once these images are passed in, the code decomposes the images into sections, finds features that might be of importance, and tries to assign rules that allow the computer to correspond features to a numerical output. or each layer of the neural network, different features, and features of features are analyzed.  They key to this technique's ability to learn is the fact that the weights of the node connections and the biases of the node, which sets a threshold that allows a neuron to be activiated, are changed throughout the training of the code so as to minimize the cost function through gradient descent.  In this way, the "rules" that govern the prediction of an image's redshift are changed.
+
+Gradient descent in three dimensions can be compared to rolling a ball down a hill in order to find the lowest valley: by changing the x and y coordinates of the ball, the z coordinate may be minimized. While this is a pleasing metaphor, deep learning algorithms function with more than two features (thus more than three "dimensions" in this case), thus, gradient descent is much more complicated than the simple hill analogy.  Instead, for more than three dimensions gradient descent is purely a 
+
+DEFINE THE COST FUNCTION 
+
+TALK ABOUT DIFFERENT APPLICATIONS OF DEEP NEURAL NETWORKS, THEN NARROW DOWN TO PHOTO-Z'S
+
+There are many different ways of ascertaining a galaxy's photometric redshift using machine learning, as was shown in the PHAT Photo-z data trial ~\citep{hildebrandt_phat:_2010}. One method that showed promise, was the use of deep learning via a trained deep neural network ~\citep{collister_annz:_2004}. In this code setup, images are fed into a deep neural network that uses regression in order to predict an image's photometric redshift.  
+
+GIVE ALL OF THE FACTS ABOUT HOYLE (summary).
+
+Other research has been done with neural networks and photometric redshifts ~\citep{hoyle_measuring_2015}   
+
   
 \section{Methodology}
   \label{sec:method}
@@ -143,11 +164,13 @@ There are many different ways of ascertaining a galaxy's photometric redshift us
    \label{sec:data_sel}   
 The various band pass trials described below were completed on SDSS galaxy images.  These galaxies and were selected with CasJobs~\citep{li_casjobs_2008} in such a fashion so as to maximize fidelity of the data.  This was achieved by selecting for galaxies with clean photometry (photo.clean = 1), no known issues with its spectra (spec.zWarning = 0), small redshift errors (spec.zErr < 0.1) and redshifts under 2 (spec.z < 2).  In addition, the exponential scale fit radius and the de Vaucouleurs fit scale radius were required to be below 30 arc seconds (so as to exclude bad photometric images).
 
-100,000 galaxies selected from SDSS-DR12 were randomly selected from the subset of galaxies fitting the criteria above using CASJOBS.  These selection criteria were taken and modified from Edward Kim's work (used in Kim and Brunner 2016).
+*** FLESH THIS OUT MORE, SAY HOW YOU THINK THIS GIVES A RANDOM ENOUGH DISTRIBUTION ***
+
+100,000 galaxies selected from SDSS-DR12 were randomly selected from the subset of galaxies fitting the criteria above using CASJOBS.  These galaxies were randomly selected, instead of taken from one area of the sky, because previous research ~\citep{cunha_sample_2012} has shown that variance of the spectroscopic measurements over the sky can lead to biased photo-z results if the data is collected from a small area or a collection of small areas (1 square degree or less at a time), thus facilitating a need for randomly collected data.  These selection criteria were taken and modified from Edward Kim's work (used in Kim and Brunner 2016).
 
 \subsection{Data Processing}
   \label{sec:data_proc}
-The collected 
+The collected images are sent through the following pipeline created by Edward Kim (cite paper)
 
 
 WHY AM I GOING TO BE DOING BAND PASS RESULTS WITH LESS THAN 5 BANDS? NEED TO FIGURE OUT WHY EVERYONE ELSE DOES 5 BAND TRIALS, NOT LESS.  MAYBE BECAUSE ITS LACKING IN CRUCIAL DATA? i MEAN, IT'S NATURAL TO THINK THAT DEEP LEARNING THRIVES ON MORE DETAILED DATA, NOT LESS, BUT UNDER WHAT PRECIDENT? -- Possibly the Baum paper: there is a known correlation between the magnitudes at different band passes and a galaxy's redshift.
@@ -156,6 +179,8 @@ WHY AM I GOING TO BE DOING BAND PASS RESULTS WITH LESS THAN 5 BANDS? NEED TO FIG
 \subsection{Neural Network Code}
   \label{sec:code}
 Through the use of a supervised neural network code created by Edward Kim (used in Kim and Brunner 2016), the data collected from SDSS
+
+TALK ABOUT CPU VS. GPU, WHY GPU'S ARE BETTER.
 
 \subsection{Band Pass Trials}
    \label{sec:bandmethod}
