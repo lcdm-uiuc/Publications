@@ -25,7 +25,7 @@ very little, manual feature engineering.
 
 ## Paper
 
-The PDF file is available at [https://github.com/UI-DataScience/Publications/raw/master/2016_Kim_Brunner/main.pdf](https://github.com/UI-DataScience/Publications/raw/master/2016_Kim_Brunner/main.pdf).
+[arXiv:1608.04369](https://arxiv.org/abs/1608.04369)
 
 ## Code
 
