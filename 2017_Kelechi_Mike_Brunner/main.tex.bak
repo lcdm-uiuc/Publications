@@ -1,0 +1,108 @@
+\documentclass[jair,twoside,11pt,theapa]{article}
+\usepackage{jair, theapa, rawfonts}
+
+\jairheading{1}{1993}{1-15}{6/91}{9/91}
+\ShortHeadings{Minimizing Conflicts: A Heuristic Repair Method}
+{Minton, Philips, Johnston, \& Laird}
+\firstpageno{25}
+
+\begin{document}
+
+\title{Minimizing Conflicts: A Heuristic Repair Method for
+       Constraint-Satisfaction and Scheduling Problems}
+
+\author{\name Kelechi Ikegwu \email ikegwu2@illinois.edu \\
+       \addr NASA Ames Research Center, Mail Stop: 244-7,\\
+       Moffett Field, CA  94035 USA
+       \AND
+       \name Micheal Hao  \email ???@illinois,.edu \\
+       \addr Space Telescope Science Institute,
+       3700 San Martin Drive,\\
+       Baltimore, MD 21218 USA
+       \AND
+       \name Philip Laird \email laird@ptolemy.arc.nasa.gov \\
+       \addr NASA Ames Research Center,
+       AI Research Branch, Mail Stop: 269-2,\\
+       Moffett Field, CA  94035 USA}
+
+% For research notes, remove the comment character in the line below.
+% \researchnote
+
+\maketitle
+
+
+\begin{abstract}
+This paper describes a simple heuristic approach to solving large-scale
+constraint satisfaction and scheduling problems.  In this approach one
+starts with an inconsistent assignment for a set of variables and
+searches through the space of possible repairs. The search can be guided
+by a value-ordering heuristic, the {\em min-conflicts heuristic}, that
+attempts to minimize the number of constraint violations after each
+step.  The heuristic can be used with a variety of different search
+strategies.  We demonstrate empirically that on the $n$-queens problem, 
+a technique
+based on this approach performs orders of magnitude better than
+traditional backtracking techniques.  We also describe a
+scheduling application where the approach has been used successfully.  A
+theoretical analysis is presented both to explain why this method works
+well on certain types of problems and to predict when it is likely to
+be most effective.
+\end{abstract}
+
+\section{Introduction}
+\label{Introduction}
+
+ Introduction Stuff
+
+\section{Related Works}
+\label{RelatedWorks}
+
+Related Works Stuff
+
+\section{SML's Architecture}
+\label{sml-architecture}
+
+Architecture Stuff
+
+\section{Interface}
+\label{interface}
+
+Interface Stuff
+
+\section{Use Cases}
+\label{use-cases}
+
+use case stuff
+
+\section{Case Study}
+\label{case-study}
+case study stuff
+
+\section{Future Work}
+\label{future-work}
+
+future work stuff
+
+\section{Conclusion}
+\label{conclusion}
+conclusion stuff
+
+\acks{acknowledgments go here
+}
+
+\appendix
+\section*{Appendix X...}
+
+Appendix goes here if needed.
+
+\vskip 0.2in
+\bibliography{sample}
+\bibliographystyle{theapa}
+
+\end{document}
+
+
+
+
+
+
