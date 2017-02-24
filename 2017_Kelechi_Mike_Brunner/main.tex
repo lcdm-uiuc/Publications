@@ -1,29 +1,24 @@
 \documentclass[jair,twoside,11pt,theapa]{article}
 \usepackage{jair, theapa, rawfonts}
+\usepackage{graphicx}
 
-\jairheading{1}{1993}{1-15}{6/91}{9/91}
-\ShortHeadings{Minimizing Conflicts: A Heuristic Repair Method}
-{Minton, Philips, Johnston, \& Laird}
+\jairheading{?}{YYYY}{1-??}{M/YY}{M/YY}
+\ShortHeadings{Standard Machine Learning Language (SML)}
+{Ikegwu, Hao, \& Brunner}
 \firstpageno{25}
 
 \begin{document}
 
-\title{Minimizing Conflicts: A Heuristic Repair Method for
-       Constraint-Satisfaction and Scheduling Problems}
+\title{Standard Machine Learning Language}
 
 \author{\name Kelechi Ikegwu \email ikegwu2@illinois.edu \\
-       \addr NASA Ames Research Center, Mail Stop: 244-7,\\
-       Moffett Field, CA  94035 USA
+       \addr 226 Astronomy Building, MC-??? \\1002 W. Green St.\\ Urbana, IL  61801
        \AND
-       \name Micheal Hao  \email ???@illinois,.edu \\
-       \addr Space Telescope Science Institute,
-       3700 San Martin Drive,\\
-       Baltimore, MD 21218 USA
+       \name Micheal Hao  \email ???@illinois.edu \\
+       \addr ???
        \AND
-       \name Philip Laird \email laird@ptolemy.arc.nasa.gov \\
-       \addr NASA Ames Research Center,
-       AI Research Branch, Mail Stop: 269-2,\\
-       Moffett Field, CA  94035 USA}
+       \name Robert Brunner \email bigdog@illinois.edu\\
+       \addr 226 Astronomy Building, MC-221 \\1002 W. Green St.\\ Urbana, IL  61801}
 
 % For research notes, remove the comment character in the line below.
 % \researchnote
@@ -32,363 +27,91 @@
 
 
 \begin{abstract}
-This paper describes a simple heuristic approach to solving large-scale
-constraint satisfaction and scheduling problems.  In this approach one
-starts with an inconsistent assignment for a set of variables and
-searches through the space of possible repairs. The search can be guided
-by a value-ordering heuristic, the {\em min-conflicts heuristic}, that
-attempts to minimize the number of constraint violations after each
-step.  The heuristic can be used with a variety of different search
-strategies.  We demonstrate empirically that on the $n$-queens problem, 
-a technique
-based on this approach performs orders of magnitude better than
-traditional backtracking techniques.  We also describe a
-scheduling application where the approach has been used successfully.  A
-theoretical analysis is presented both to explain why this method works
-well on certain types of problems and to predict when it is likely to
-be most effective.
+Standard Machine Learning Language (SML) is a language agnostic framework that integrates a query-like language to simplify the development for a variety of state-of-the-art machine learning pipelines. Emphasis was placed on ease of use and abstracting the complexities of machine learning from the end user encouraging it's use in professional and academic settings from a variety of disciplines. SML's architecture is discussed, followed by multiple interfaces that one could use to interact with SML. We then apply SML to a few research problems and compare the complexities for multiple problems. Lastly we perform a case study on SML. The source code and documentation for SML is open sourced and publicly available on github \cite{ginsberg}.
 \end{abstract}
 
 \section{Introduction}
 \label{Introduction}
 
- Introduction Stuff
+Machine Learning has simplified the process of solving a vast amount problems in a variety of fields by learning from data. In most cases machine learning has become more attractive than manually creating programs to solve these same issues. However they're a lot of nuisances (that a novice may be unfamilar with) involved when developing machine learning pipelines \cite{pedros:fewUsefulThings} and if they are not taken into consideration one may not receive satisfactory results. In addition to this, an experience user may not want to deal with [REASONS HERE]. In this paper we introduce Standard Machine Learning Language (SML)  which helps to combat these two use cases.
 
-\section{RelatedWorks}
-\label{Related Works}
+
+The overall objective of the SML is to provide a level of abstraction which simplifies the development process of machine learning pipelines. Consequently this enables researchers and industry professionals without a background in this area to use machine learning to solve problems. We developed a query like language to which serves as an abstraction from writing actual machine learning code see Figure \ref{fig:sml-ex-1} for an example.   
+
+\begin{figure}
+\includegraphics[width=0.6\textwidth]{figs/sml-ex-1.png}
+\centering
+\caption{Example of a SML Query. TODO: FIX COLOR SYNTAX}
+\label{fig:sml-ex-1}
+\end{figure}
+
+\section{Related Works}
+\label{RelatedWorks}
 
 Related Works Stuff
 
-\section{Why does the GDS Network Perform So Well?}
-\label{mv-heuristic}
+\section{Grammar}
+\label{grammar}
 
-Our analysis of the GDS network was motivated by the following question:
-``Why does the network perform so much better than traditional backtracking
-methods on certain tasks''? In particular, we were intrigued by the results
-on the $n$-queens problem, since this problem has received considerable
-attention from previous researchers.  For $n$-queens, Adorf and Johnston
-found empirically that the network requires a linear number of transitions to
-converge. Since each transition requires linear time, the expected
-(empirical) time for the network to find a solution is $O(n^2)$. To check
-this behavior, Johnston and Adorf ran experiments with $n$ as high as 1024,
-at which point memory limitations became a problem.\footnote{The network,
-which is programmed in Lisp, requires approximately 11 minutes to solve the
-1024 queens problem on a TI Explorer II. For larger problems, memory becomes
-a limiting factor because the network requires approximately $O(n^{2})$
-space.  (Although the number of connections is actually $O(n^{3})$, some
-connections are computed dynamically rather than stored).}
+Grammar Stuff
 
+\section{SML's Architecture}
+\label{sml-architecture}
 
-\vspace*{-0.05in}
-\subsection{Nonsystematic Search Hypothesis}
-\vspace*{-0.05in}
+Architecture Stuff
 
-Initially, we hypothesized that the network's advantage came from the
-nonsystematic nature of its search, as compared to the systematic
-organization inherent in depth-first backtracking. There are two
-potential problems associated with systematic depth-first search.
-First, the search space may be organized in such a way that poorer
-choices are explored first at each branch point.  For instance, in the
-$n$-queens problem, depth-first search tends to find a solution more
-quickly when the first queen is placed in the center of the first row
-rather than in the corner; apparently this occurs because
-there are more solutions with the
-queen in the center than with the queen in the corner \cite{stones}.
-Nevertheless,
-most naive algorithms tend to start in the corner simply because
-humans find it more natural to program that way.  However, this fact
-by itself does not explain why nonsystematic search would work so well
-for $n$-queens.  A backtracking program that randomly orders rows (and
-columns within rows) performs much better than the naive method, but
-still performs poorly relative to the GDS network.
+\subsubsection{Model Phase}
+model phase
+\subsubsection{Apply Phase}
+apply phase
+\subsubsection{Metrics Phase}
+It's often useful to visualize the data that one works with; it's also beneifical to see the performance metrics of your machine learning algorithm to better understand ones data. By default if you specify the `PLOT` keyword in a query, SML will execute the metrics phase. Figure \ref{fig:metric-phase} displays a block diagram of the metric phase of SML. SML performs a dictionary lookup with the average complexity of O(1) to find specific terms that are in the query. For the example in Figure \ref{fig:metric-phase} we specified `PLOT` which instructs SML to create visualizations, with the `READ` keyword SML will create a lattice plot containing Kernel Density Estimates. Given an algorithm type such as Classification SML generates plots such as ROC Curves and Validation and Learning Curves. For a comprehensive list for the type of plots that SML can generate visit  \cite{}.
 
 \begin{figure}
-\begin{center}
-\setlength{\unitlength}{0.010in}
-\begin{picture}(575,170)(15,465)
-
-\put(255,480){\circle{10}}
-\put(105,510){\circle{10}}
-\put(205,510){\circle{10}}
-\put( 95,510){\circle{10}}
-\put(193,509){\circle{10}}
-\put(115,510){\circle{10}}
-\put(215,510){\circle{10}}
-\put(510,510){\circle{10}}
-\put(429,510){\circle{10}}
-\put(469,510){\circle{10}}
-\put(390,510){\circle{10}}
-\put(550,510){\circle{10}}
-\put(350,510){\circle{10}}
-\put(255,550){\line( 1,-1){ 40}}
-\put(255,550){\line( 1,-2){ 20}}
-\put(255,550){\line( 0,-1){ 40}}
-\put(225,550){\line( 1,-2){ 20}}
-\put(225,550){\line( 1,-4){ 10}}
-\put(225,550){\line( 0,-1){ 40}}
-\put(205,550){\line( 1,-4){ 10}}
-\put(205,550){\line( 0,-1){ 40}}
-\put(205,550){\line(-1,-4){ 10}}
-\put(105,550){\line( 1,-4){ 10}}
-\put(105,550){\line( 0,-1){ 40}}
-\put(105,550){\line(-1,-4){ 10}}
-\put( 85,550){\line( 0,-1){ 40}}
-\put( 85,550){\line(-1,-4){ 10}}
-\put( 85,550){\line(-1,-2){ 20}}
-\put( 55,550){\line( 0,-1){ 40}}
-\put( 55,550){\line(-1,-2){ 20}}
-\put( 55,550){\line(-1,-1){ 40}}
-\put(215,590){\line( 1,-1){ 40}}
-\put(215,590){\line( 1,-4){ 10}}
-\put(175,590){\line( 3,-4){ 30}}
-\put(175,590){\line( 0,-1){ 40}}
-\put(135,590){\line( 0,-1){ 40}}
-\put(135,590){\line(-3,-4){ 30}}
-\put( 95,590){\line(-1,-4){ 10}}
-\put( 95,590){\line(-1,-1){ 40}}
-\put(155,630){\line( 1,-2){ 20}}
-\put(155,630){\line( 3,-2){ 60}}
-\put(155,630){\line(-1,-2){ 20}}
-\put(155,630){\line(-3,-2){ 60}}
-\put(135,550){\line(-1,-4){ 10}}
-\put(135,550){\line( 1,-4){ 10}}
-\put(175,550){\line( 1,-4){ 10}}
-\put(175,550){\line(-1,-4){ 10}}
-\put(175,550){\line( 0,-1){ 40}}
-\put(135,550){\line( 0,-1){ 40}}
-\put(430,550){\line( 0,-1){ 40}}
-\put(470,550){\line( 0,-1){ 40}}
-\put(470,550){\line(-1,-4){ 10}}
-\put(470,550){\line( 1,-4){ 10}}
-\put(430,550){\line( 1,-4){ 10}}
-\put(430,550){\line(-1,-4){ 10}}
-\put(450,630){\line(-3,-2){ 60}}
-\put(450,630){\line(-1,-2){ 20}}
-\put(450,630){\line( 3,-2){ 60}}
-\put(450,630){\line( 1,-2){ 20}}
-\put(390,590){\line(-1,-1){ 40}}
-\put(390,590){\line(-1,-4){ 10}}
-\put(430,590){\line(-3,-4){ 30}}
-\put(430,590){\line( 0,-1){ 40}}
-\put(470,590){\line( 0,-1){ 40}}
-\put(470,590){\line( 3,-4){ 30}}
-\put(510,590){\line( 1,-4){ 10}}
-\put(510,590){\line( 1,-1){ 40}}
-\put(350,550){\line(-1,-1){ 40}}
-\put(350,550){\line(-1,-2){ 20}}
-\put(350,550){\line( 0,-1){ 40}}
-\put(380,550){\line(-1,-2){ 20}}
-\put(380,550){\line(-1,-4){ 10}}
-\put(380,550){\line( 0,-1){ 40}}
-\put(400,550){\line(-1,-4){ 10}}
-\put(400,550){\line( 0,-1){ 40}}
-\put(400,550){\line( 1,-4){ 10}}
-\put(500,550){\line(-1,-4){ 10}}
-\put(500,550){\line( 0,-1){ 40}}
-\put(500,550){\line( 1,-4){ 10}}
-\put(520,550){\line( 0,-1){ 40}}
-\put(520,550){\line( 1,-4){ 10}}
-\put(520,550){\line( 1,-2){ 20}}
-\put(550,550){\line( 0,-1){ 40}}
-\put(550,550){\line( 1,-2){ 20}}
-\put(550,550){\line( 1,-1){ 40}}
-\put(270,475){\makebox(0,0)[lb]{\raisebox{0pt}[0pt][0pt]{\twltt = solution}}}
-\end{picture}
-\end{center} 
-\caption{Solutions Clustered vs. Solutions Evenly Distributed}
-\label{shotgun}
+\includegraphics[width=0.6\textwidth]{figs/metric-phase.png}
+\centering
+\caption{Block Diagram of Metric Phase Architecture}
+\label{fig:metric-phase}
 \end{figure}
 
+\subsubsection{Parser}
+parser
 
-The second potential problem with depth-first search is more significant
-and more subtle. As illustrated by figure \ref{shotgun}, a depth-first
-search can be a
-disadvantage when solutions are not evenly distributed throughout the
-search space.  In the tree at the left of the figure, the solutions 
-are clustered together. In the tree on the right,
-the solutions are more evenly distributed. Thus, the average distance
-between solutions is greater in the left tree.  In a depth-first
-search, the average time to find the first solution 
-increases with the average distance between solutions. Consequently
-depth-first search performs relatively poorly in a tree where
-the solutions are clustered, such as that on the left \cite{ginsberg,langley}.
-In comparison,
-a search strategy which examines the leaves of the tree in random
-order is unaffected by solution clustering.
+\subsubsection{Connector}
+connector
 
-We investigated whether this phenomenon explained the relatively poor
-performance 
-of depth-first search on $n$-queens by experimenting with a randomized
-search algorithm, called a Las Vegas algorithm \cite{brassard}.  The
-algorithm begins by selecting a path from the root to a leaf. To
-select a path, the algorithm starts at the root node and chooses one
-of its children with equal probability. This process continues
-recursively until a leaf is encountered.  If the leaf is a solution
-the algorithm terminates, if not, it starts over again at the root and
-selects a path. The same path may be examined more than once, since
-no memory is maintained between successive trials.
+\section{Interface}
+\label{interface}
 
-The Las Vegas algorithm does, in fact, perform better than simple
-depth-first search on $n$-queens \cite{brassard}.
-However, the performance of the Las
-Vegas algorithm is still not nearly as good as that of the GDS
-network, and so we concluded that the systematicity hypothesis alone
-cannot explain the network's behavior.
+They're multiple interfaces available for working with SML. We've developed a web tool that's publicly available which allows the user to interact with SML. There's also a REPL environment available that allows the user to interactively use SML. Lastly, users have the option to import SML into an existing pipeline to simplify the development process.
 
-\subsection{Informedness Hypothesis}
+\section{Use Cases}
+\label{use-cases}
 
-Our second hypothesis was that the network's search process uses
-information about the current assignment
-that is not available to a constructive backtracking program.
-'s use of an iterative
-improvement strategy guides the search in a way that is not possible
-with a standard backtracking algorithm. 
-We now believe this hypothesis
-is correct, in that it explains why the network works so well.  In
-particular, the key to the network's performance appears to be that
-state transitions are made so as to reduce the number of outstanding
-inconsistencies in the network; specifically, each state transition involves
-flipping the neuron whose output is most
-inconsistent with its current input. From a constraint satisfaction
-perspective, it is as if the network reassigns a value for a variable
-by choosing the value that violates the fewest constraints.
-This idea is captured by the following heuristic:
+use case stuff
 
-{\small
-\begin{quote}
-{\bf Min-Conflicts heuristic:}\\
-{\em Given:} A set of variables, a set of binary constraints, 
-and an assignment specifying a value for each variable. 
-Two variables {\em conflict} if their values violate a constraint.\\
-{\em Procedure:} Select a variable that is in conflict,
-and assign it a value that minimizes the number of conflicts.
-(Break ties randomly.)
-\end{quote}
-}
+\section{Case Study}
+\label{case-study}
+case study stuff
 
-We have found that the network's behavior can be approximated by a
-symbolic system that uses the min-conflicts heuristic for
-hill climbing.  The hill-climbing system starts with an initial
-assignment generated in a preprocessing phase.  At each choice point,
-the heuristic chooses a variable that is currently in conflict and
-reassigns its value, until a solution is found. The system thus
-searches the space of possible assignments, favoring assignments with
-fewer total conflicts.  Of course, the hill-climbing system can become
-``stuck'' in a local maximum, in the same way that the network may
-become ``stuck'' in a local minimum.  In the next section we present
-empirical evidence to support our claim that the min-conflicts
-approach can account for the network's effectiveness.
+\section{Future Work}
+\label{future-work}
 
-   There are two aspects of the min-conflicts hill-climbing method
-that distinguish it from standard CSP algorithms.
-First, instead of incrementally constructing a consistent partial
-assignment, the min-conflicts method {\em repairs} a complete but
-inconsistent assignment by reducing inconsistencies.  Thus, it uses
-information about the current assignment to guide its search that is
-not available to a standard backtracking algorithm. Second,
-the use of a hill-climbing strategy rather than a backtracking strategy
-produces a different style of search.
+future work stuff
 
-\begin{figure}
-{\small
-{\bf
-\begin{verbatim}
-     Procedure INFORMED-BACKTRACK (VARS-LEFT VARS-DONE)
-      If all variables are consistent, then solution found, STOP.
-      Let VAR = a variable in VARS-LEFT that is in conflict.
-      Remove VAR from VARS-LEFT.
-      Push VAR onto VARS-DONE.
-      Let VALUES = list of possible values for VAR in ascending order according 
-                   to number of conflicts with variables in VARS-LEFT.
-      For each VALUE in VALUES, until solution found:
-        If VALUE does not conflict with any variable that is in VARS-DONE, 
-        then Assign VALUE to VAR.
-             Call INFORMED-BACKTRACK(VARS-LEFT VARS-DONE)
-        end if
-      end for
-     end procedure
-    
-    Begin program
-     Let VARS-LEFT = list of all variables, each assigned an initial value.
-     Let VARS-DONE = nil
-     Call INFORMED-BACKTRACK(VARS-LEFT VARS-DONE)
-    End program
-    \end{verbatim}
-}
-}
-\caption{Informed Backtracking Using the Min-Conflicts Heuristic}
-\label{iback}
-\end{figure}
+\section{Conclusion}
+\label{conclusion}
+conclusion stuff
 
-
-
-\subsubsection{Repair-Based Search Strategies}
-
-(This is a example of a third level section.)
-Extracting the method from the network enables us
-to tease apart and experiment with its different components.
-In particular, the idea of repairing an inconsistent assignment
-can be used with a variety of different search strategies
-in addition to hill climbing.
-For example, we can backtrack through the space of possible repairs,
-rather than using a hill-climbing strategy, as follows.
-Given an initial assignment generated in a preprocessing phase, 
-we can employ the min-conflicts
-heuristic to order the choice of variables and values to consider,
-as described in figure \ref{iback}.
-Initially, the variables are all on a list
-of {\sc vars-left}, and as they are repaired, they are pushed onto a 
-list of {\sc vars-done}. 
-The algorithm attempts
-to find a sequence of repairs, such that no variable is repaired more than
-once. If there is no way to repair a variable in {\sc vars-left} without
-violating a previously repaired variable (a variable in {\sc vars-done}),
-the algorithm backtracks.
-
-Notice that this algorithm is simply a standard
-backtracking algorithm augmented with the min-conflicts heuristic to
-order its choice of which variable and value to attend to.  This
-illustrates an important point. The backtracking repair algorithm
-incrementally extends a consistent partial assignment (i.e., {\sc
-vars-done}), as does a constructive backtracking program, but in addition,
-uses information from the initial assignment (i.e., {\sc vars-left})
-to bias its search. Thus, it is a type of {\em informed backtracking}.
-We still characterize it as repair-based method since its search
-is guided by a complete, inconsistent assignment.
-
-
-\section{Experimental Results}
-
-\label{results}
-
- [section ommitted]
-
-\section{A Theoretical Model}
-\label{analysis}
-
- [section ommitted]
-
-\section{Discussion}
-
- [section ommitted]
-
-\acks{The authors wish to thank Hans-Martin Adorf, Don Rosenthal, 
-Richard Franier, Peter Cheeseman and Monte Zweben for their assistance
-and advice.  We also thank Ron Musick and our anonymous reviewers for
-their comments.  The Space Telescope Science Institute is operated by
-the Association of Universities for Research in Astronomy for NASA.
-}
+\acks{acknowledgments go here}
 
 \appendix
-\section*{Appendix A. Probability Distributions for N-Queens}
+\section*{Appendix X...}
 
-
-[section ommitted]
-
-
+Appendix goes here if needed.
 
 \vskip 0.2in
-\bibliography{sample}
+\bibliography{main}
 \bibliographystyle{theapa}
 
 \end{document}
