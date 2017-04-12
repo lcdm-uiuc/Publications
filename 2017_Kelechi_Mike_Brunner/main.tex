@@ -96,7 +96,7 @@ A keyword is a predefined term associating an Action with a particular string. A
 Figure \ref{SML:BNFComp} % figure that shows Figure 1 and it in BNF format side by side.
 
 \subsection{Keywords}
-In this subsection we define all of the available keywords that exist in SML. Currently they're 8 keywords
+In this subsection we define all of the available keywords that exist in SML. Currently they're 8 keywords in SML.
 
 \subsubsection{Reading Datasets}
 When reading data from SML one must use the \(READ\) keyword followed by an Argument containg a path to the dataset. Figure \ref{SML:READ} shows examples of the \(READ\) keyword being used. \(READ\) also accepts an OptionList, for a full list of the optional arguments can visit \ref{}.
@@ -105,30 +105,30 @@ When reading data from SML one must use the \(READ\) keyword followed by an Argu
 When NaNs, NAs and/or other troublesome values are present in dataset we clean these values in SML by using the \(REPLACE\) keyword. Figure \ref{SML:REPLACE} shows can exajmple of the \(REPLACE\) keyword being used.  
 
 \subsubsection{Patitioning Datasets}
-For majority of the situations in Machine Learning it's often useful to split a dataset into training and testing datasets. This can be achieved in SML by using the \(SPLIT\) keyword. Figure \ref{SML:SPLIT} show an example utlizing the \(SPLIT\) keyword.
+For majority of the situations in Machine Learning it's often useful to split a dataset into training and testing datasets. This can be achieved in SML by using the \(SPLIT\) keyword. Figure \ref{SML:SPLIT} shows an example utlizing the \(SPLIT\) keyword.
 
 \subsubsection{Using Classification Algorithms}
-
+To use a classification algorithm in SML one would use the \(CLASSIFY\) keyword. SML has the following classification algorithms implemented: Support Vector Machines, Naive Bayes, Random Forest, Logistic Regression, and K-Nearest Neighbors. Figure \ref{SML:CLASSIFY} demonstrates how to use the \(CLASSIFY\) keyword in a query.
 
 \subsubsection{Using Clustering Algorithms}
+For clustering algorithms can be invoked by using the \(CLUSTER\) keyword. SML currently has K-Means Clustering implemented. Figure \ref{SML:CLUSTER} demonstrates how to use the \(CLUSTER\) keyword in a query.
 
 \subsubsection{Using Regression Algorithms}
+Regression algorithms can be invoked by using the \(REGRESS\) keyword. SML currently has the following regression algorithms implemented:Simple Linear Regression, Ridge Regression, Lasso Regression, and Elastic Net Regression. Figure \ref{SML:REGRESS} demonstrates how to use the \(REGRESS\) keyword in a query.
 
 \subsubsection{Saving/Loading Models}
+It's possible to save models and reuse them later. To save a model in SML one would use the \(SAVE\) keyword in a query. To load an existing model from SML one would use the \(LOAD\) keyword in a query. Figure \ref{SML:SAVE_LOAD} show how to save and load a model using SML.
 
 \subsubsection{Visualizating Datasets and Metrics of Algorithms}
+When using SML it's possible to visualize datasets or metrics of algorithms (such as learning curves, or ROC curves). To do this the \(PLOT\) keyword must be specified in a query. Figure \ref{SML:PLOT} shows can example of how to use the \(PLOT\) keyword in a query.
 
 \section{SML's Architecture}
 \label{sml-architecture}
 
-Architecture Stuff
+When SML is given a string, it is passed to the parser. The high level implementation of the grammar is then used to parse through the string to determine the actions to perform. The actions are stored in a dictionary and given to one of the following phases of SML: Model Phase, Apply Phase, or Metrics Phase.
 
-\subsubsection{Model Phase}
-model phase
-\subsubsection{Apply Phase}
-apply phase
-\subsubsection{Metrics Phase}
-It's often useful to visualize the data that one works with; it's also beneifical to see the performance metrics of your machine learning algorithm to better understand ones data. By default if you specify the `PLOT` keyword in a query, SML will execute the metrics phase. Figure \ref{fig:metric-phase} displays a block diagram of the metric phase of SML. SML performs a dictionary lookup with the average complexity of O(1) to find specific terms that are in the query. For the example in Figure \ref{fig:metric-phase} we specified `PLOT` which instructs SML to create visualizations, with the `READ` keyword SML will create a lattice plot containing Kernel Density Estimates. Given an algorithm type such as Classification SML generates plots such as ROC Curves and Validation and Learning Curves. For a comprehensive list for the type of plots that SML can generate visit  \cite{}.
+
+The model phase is generally for constructing a model. The keywords that generally invoke the model phase are: \(READ\), \(REPLACE\), \(CLASSIFY\), \(REGRESS\), and \(CLUSTER\). The apply phase is generally for applying a prexisting model  to new data. The keywords that generally invoke the apply phase are: \(LOAD\), and \(APPLY\). It's often useful to visualize the data that one works with and beneifical to see the performance metrics of a machine learning algorithm. By default if you specify the \(PLOT\) keyword in a query, SML will execute the metrics phase. Figure \ref{fig:metric-phase} displays a block diagram of the metric phase of SML. SML performs a dictionary lookup with the average complexity of O(1) to find specific terms that are in the query. For the example in Figure \ref{fig:metric-phase} we specified `PLOT` which instructs SML to create visualizations, with the `READ` keyword SML will create a lattice plot containing kernel density estimates for each feature. Given an algorithm type such as Classification SML generates plots such as ROC Curves and Validation and Learning Curves. For a comprehensive list for the type of plots that SML can generate visit  \cite{}.
 
 \begin{figure}
 \includegraphics[width=0.6\textwidth]{figs/metric-phase.png}
@@ -137,11 +137,8 @@ It's often useful to visualize the data that one works with; it's also beneifica
 \label{fig:metric-phase}
 \end{figure}
 
-\subsubsection{Parser}
-parser
-
 \subsubsection{Connector}
-connector
+Lastly, another significant component of SML's architecture is the connector. The connector connects Drivers from different languages to achieve an action we want. For instance, consider applying  Linear Regression on a dataset. During the model phase, SML calls the connector to retrieve the linear regression library. SML uses scikit learn's \ref{} implementation for Linear Regression however if we wanted to use a HMM scikit learn removed this algorithm from it's library ergo SML will use the connector to call another library that supports HMM.
 
 \section{Interface}
 \label{interface}
@@ -151,7 +148,7 @@ They're multiple interfaces available for working with SML. We've developed a we
 \section{Use Cases}
 \label{use-cases}
 
-use case stuff
+We tested the SML framework against ten popular machine learning problems with publicly avaiable datasets. 
 
 \section{Case Study}
 \label{case-study}

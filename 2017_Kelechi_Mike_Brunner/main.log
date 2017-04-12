@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.25)  12 APR 2017 01:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.25)  12 APR 2017 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -410,30 +410,48 @@ LaTeX Warning: Reference `SML:REPLACE' on page 3 undefined on input line 105.
 
 LaTeX Warning: Reference `SML:SPLIT' on page 3 undefined on input line 108.
 
-[3] <figs/metric-phase.png, id=24, 1151.30125pt x 741.77126pt>
+
+LaTeX Warning: Reference `SML:CLASSIFY' on page 3 undefined on input line 111.
+
+
+LaTeX Warning: Reference `SML:CLUSTER' on page 3 undefined on input line 114.
+
+
+LaTeX Warning: Reference `SML:REGRESS' on page 3 undefined on input line 117.
+
+[3]
+
+LaTeX Warning: Reference `SML:SAVE_LOAD' on page 4 undefined on input line 120.
+
+
+
+LaTeX Warning: Reference `SML:PLOT' on page 4 undefined on input line 123.
+
+<figs/metric-phase.png, id=24, 1151.30125pt x 741.77126pt>
 File: figs/metric-phase.png Graphic file (type png)
 
 <use figs/metric-phase.png>
 Package pdftex.def Info: figs/metric-phase.png used on input line 134.
 (pdftex.def)             Requested size: 260.17464pt x 167.62703pt.
- [4 <./figs/metric-phase.png>]
+
+
+LaTeX Warning: Reference `' on page 4 undefined on input line 141.
+
+[4] [5 <./figs/metric-phase.png>]
 No file main.bbl.
-[5] (./main.aux)
+[6] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 2436 strings out of 494910
- 31874 string characters out of 6179836
+ 2441 strings out of 494910
+ 31939 string characters out of 6179836
  92492 words of memory out of 5000000
- 5674 multiletter control sequences out of 15000+600000
+ 5679 multiletter control sequences out of 15000+600000
  20263 words of font info for 77 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,14n,23p,914b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,14n,23p,1226b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -443,10 +461,10 @@ st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (5 pages, 337086 bytes).
+Output written on main.pdf (6 pages, 340725 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
