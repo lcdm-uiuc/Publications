@@ -148,11 +148,24 @@ They're multiple interfaces available for working with SML. We've developed a we
 \section{Use Cases}
 \label{use-cases}
 
-We tested the SML framework against ten popular machine learning problems with publicly avaiable datasets. 
 
-\section{Case Study}
-\label{case-study}
-case study stuff
+We tested the SML framework against ten popular machine learning problems with publicly available data sets. We then selected two problems that researchers have attempted to solve in different domains that utlized machine learning to apply SML. 
+
+\subsection{10 Use Cases}
+We applied SML to the following datasets: Iris Dataset \cite{}, Auto-MPG Dataset \cite{}, Seeds Dataset \cite{}, Computer Hardware Dataset \cite{}, Boston Housing Dataset \cite{}, Wine Dataset \cite{}, US Census Dataset \cite{}, Chronic Kidney Disease \cite{}, Spam Detection \cite{}, and the Titanic Dataset \cite{}. In this paper we dicuss applying SML to the Iris Dataset and the Auto-MPG dataset. \cite{Github:DataFlows} provides detailed explanations and examples that solve problems all 10 data sets.
+
+\subsubsection{Iris Dataset}
+Figure \ref{SML:IrisQuery} shows all of the code required to perform classification on the Iris dataset. In Figure \ref{SML:IrisQuery} We read data from a specified path, perform a 80/20 split, use the first 4 columns to predict the 5th column, use support vector machines as the algorithm to perform classification and finally plot distributions of our dataset  and metrics of our algorithm. Figure \ref{Manual:IrisCode} illustrates what is required to perform the same operations using scikit learn. The  result for both  snippets of code are the same and can be seen in Figure \ref{IrisResults}.
+
+\subsubsection{Auto-Mpg Dataset}
+Figure \ref{SML:AutoMPGQuery} shows all of the code required to perform regression on the Auto-MPG dataset. In Figure \ref{SML:AutoMPGQuery} we read data from a specified path, the dataset is separated by fixed width spaces and we choose not to provide a header for the dataset.  Next we perform a 80/20 split, replace all occurrences of "?" with the mode of the column. We then perform linear regression using columns 2-8 to predict the 1st label. Lastly, we visualize distributions of our dataset and metrics of our algorithm. Figure \ref{Manual:Auto-MPG} demonstrates what's required to perform the same operations using scikit learn. The outcome for both process are the same and can be seen in Figure \ref{AutoMPGResults}
+
+\subsection{Insider Threat Detection}
+
+\subsection{Predicting Health Care Cost Among Medicare beneficiaries in Massachusetts }
+
+\subsection{Discussion}
+
 
 \section{Future Work}
 \label{future-work}
