@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 APR 2017 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 APR 2017 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -217,17 +217,14 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 
-LaTeX Warning: Citation `ginsberg' on page 1 undefined. on input line 31.
-
-
 LaTeX Warning: Citation `pedros:fewUsefulThings' on page 1 undefined. on input 
 line 37.
 
-<figs/sml-ex-1.png, id=1, 934.692pt x 180.07275pt>
+<figs/sml-ex-1.png, id=1, 940.11224pt x 100.57574pt>
 File: figs/sml-ex-1.png Graphic file (type png)
  <use figs/sml-ex-1.png>
 Package pdftex.def Info: figs/sml-ex-1.png used on input line 43.
-(pdftex.def)             Requested size: 260.17464pt x 50.12328pt.
+(pdftex.def)             Requested size: 260.17464pt x 27.83412pt.
 
 
 LaTeX Warning: Citation `TPOT' on page 1 undefined. on input line 52.
@@ -370,19 +367,19 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
 [2 <./figs/sml-ex-1.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -400,83 +397,119 @@ Missing character: There is no ù in font cmr10!
 LaTeX Warning: Reference `SML:BNFComp' on page 3 undefined on input line 96.
 
 
-LaTeX Warning: Reference `SML:READ' on page 3 undefined on input line 102.
-
-
 LaTeX Warning: Reference `' on page 3 undefined on input line 102.
 
+<figs/READ.png, id=23, 844.3545pt x 70.46326pt>
+File: figs/READ.png Graphic file (type png)
+ <use figs/READ.png>
+Package pdftex.def Info: figs/READ.png used on input line 105.
+(pdftex.def)             Requested size: 260.17464pt x 21.7122pt.
 
-LaTeX Warning: Reference `SML:REPLACE' on page 3 undefined on input line 105.
+<figs/REPLACE.png, id=24, 935.29425pt x 68.6565pt>
+File: figs/REPLACE.png Graphic file (type png)
+ <use figs/REPLACE.png>
+Package pdftex.def Info: figs/REPLACE.png used on input line 115.
+(pdftex.def)             Requested size: 260.17464pt x 19.09796pt.
 
+<figs/SPLIT.png, id=25, 880.4895pt x 61.4295pt>
+File: figs/SPLIT.png Graphic file (type png)
+ <use figs/SPLIT.png>
+Package pdftex.def Info: figs/SPLIT.png used on input line 125.
+(pdftex.def)             Requested size: 260.17464pt x 18.15154pt.
+ [3 <./figs/READ.png> <./figs/REPLACE.png>]
+<figs/CLASSIFY.png, id=31, 941.31676pt x 109.6095pt>
+File: figs/CLASSIFY.png Graphic file (type png)
+ <use figs/CLASSIFY.png>
+Package pdftex.def Info: figs/CLASSIFY.png used on input line 135.
+(pdftex.def)             Requested size: 260.17464pt x 30.29405pt.
 
-LaTeX Warning: Reference `SML:SPLIT' on page 3 undefined on input line 108.
+<figs/CLUSTER.png, id=32, 934.692pt x 112.62074pt>
+File: figs/CLUSTER.png Graphic file (type png)
+ <use figs/CLUSTER.png>
+Package pdftex.def Info: figs/CLUSTER.png used on input line 145.
+(pdftex.def)             Requested size: 260.17464pt x 31.34799pt.
 
+<figs/REGRESS.png, id=33, 936.49875pt x 148.1535pt>
+File: figs/REGRESS.png Graphic file (type png)
+ <use figs/REGRESS.png>
+Package pdftex.def Info: figs/REGRESS.png used on input line 155.
+(pdftex.def)             Requested size: 260.17464pt x 41.15942pt.
 
-LaTeX Warning: Reference `SML:CLASSIFY' on page 3 undefined on input line 111.
+<figs/SAVE_LOAD.png, id=34, 602.85225pt x 97.5645pt>
+File: figs/SAVE_LOAD.png Graphic file (type png)
+ <use figs/SAVE_LOAD.png>
+Package pdftex.def Info: figs/SAVE_LOAD.png used on input line 165.
+(pdftex.def)             Requested size: 260.17464pt x 42.10524pt.
 
-
-LaTeX Warning: Reference `SML:CLUSTER' on page 3 undefined on input line 114.
-
-
-LaTeX Warning: Reference `SML:REGRESS' on page 3 undefined on input line 117.
-
-[3]
-
-LaTeX Warning: Reference `SML:SAVE_LOAD' on page 4 undefined on input line 120.
-
-
-
-LaTeX Warning: Reference `SML:PLOT' on page 4 undefined on input line 123.
-
-<figs/metric-phase.png, id=24, 1151.30125pt x 741.77126pt>
+<figs/PLOT.png, id=35, 937.70325pt x 145.7445pt>
+File: figs/PLOT.png Graphic file (type png)
+ <use figs/PLOT.png>
+Package pdftex.def Info: figs/PLOT.png used on input line 175.
+(pdftex.def)             Requested size: 260.17464pt x 40.43678pt.
+ [4 <./figs/SPLIT.png> <./figs/CLASSIFY.png> <./figs/CLUSTER.png>]
+<figs/metric-phase.png, id=42, 1151.30125pt x 741.77126pt>
 File: figs/metric-phase.png Graphic file (type png)
 
 <use figs/metric-phase.png>
-Package pdftex.def Info: figs/metric-phase.png used on input line 134.
+Package pdftex.def Info: figs/metric-phase.png used on input line 190.
 (pdftex.def)             Requested size: 260.17464pt x 167.62703pt.
 
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 141.
+LaTeX Warning: Reference `' on page 5 undefined on input line 197.
 
-[4]
+[5 <./figs/REGRESS.png> <./figs/SAVE_LOAD.png> <./figs/PLOT.png>]
 
-LaTeX Warning: Citation `Github:DataFlows' on page 5 undefined. on input line 1
-55.
+LaTeX Warning: Citation `Github:DataFlows' on page 6 undefined. on input line 2
+11.
 
+[6 <./figs/metric-phase.png>]
+<figs/iris_sml.png, id=53, 893.13675pt x 238.491pt>
+File: figs/iris_sml.png Graphic file (type png)
+ <use figs/iris_sml.png>
+Package pdftex.def Info: figs/iris_sml.png used on input line 217.
+(pdftex.def)             Requested size: 260.17464pt x 69.47357pt.
 
-LaTeX Warning: Reference `SML:IrisQuery' on page 5 undefined on input line 158.
+<figs/iris_manual.png, id=54, 1159.33125pt x 709.65125pt>
+File: figs/iris_manual.png Graphic file (type png)
 
+<use figs/iris_manual.png>
+Package pdftex.def Info: figs/iris_manual.png used on input line 224.
+(pdftex.def)             Requested size: 260.17464pt x 159.25316pt.
 
+<figs/iris_results.png, id=55, 1444.39626pt x 697.60625pt>
+File: figs/iris_results.png Graphic file (type png)
 
-LaTeX Warning: Reference `SML:IrisQuery' on page 5 undefined on input line 158.
+<use figs/iris_results.png>
+Package pdftex.def Info: figs/iris_results.png used on input line 231.
+(pdftex.def)             Requested size: 260.17464pt x 125.64885pt.
 
+<figs/autompg_sml.png, id=56, 852.786pt x 246.9225pt>
+File: figs/autompg_sml.png Graphic file (type png)
 
+<use figs/autompg_sml.png>
+Package pdftex.def Info: figs/autompg_sml.png used on input line 242.
+(pdftex.def)             Requested size: 260.17464pt x 75.33195pt.
 
-LaTeX Warning: Reference `Manual:IrisCode' on page 5 undefined on input line 15
-8.
+<figs/auto-mpg_manual.png, id=57, 1606.0pt x 713.66624pt>
+File: figs/auto-mpg_manual.png Graphic file (type png)
 
+<use figs/auto-mpg_manual.png>
+Package pdftex.def Info: figs/auto-mpg_manual.png used on input line 249.
+(pdftex.def)             Requested size: 260.17464pt x 115.61546pt.
 
-LaTeX Warning: Reference `IrisResults' on page 5 undefined on input line 158.
+<figs/auto-mpg-results.png, id=58, 1591.9475pt x 377.41pt>
+File: figs/auto-mpg-results.png Graphic file (type png)
 
-[5 <./figs/metric-phase.png>]
+<use figs/auto-mpg-results.png>
+Package pdftex.def Info: figs/auto-mpg-results.png used on input line 256.
+(pdftex.def)             Requested size: 260.17464pt x 61.6768pt.
 
-LaTeX Warning: Reference `SML:AutoMPGQuery' on page 6 undefined on input line 1
-61.
+Underfull \vbox (badness 1038) has occurred while \output is active []
 
-
-LaTeX Warning: Reference `SML:AutoMPGQuery' on page 6 undefined on input line 1
-61.
-
-
-LaTeX Warning: Reference `Manual:Auto-MPG' on page 6 undefined on input line 16
-1.
-
-
-LaTeX Warning: Reference `AutoMPGResults' on page 6 undefined on input line 161
-.
-
+ [7 <./figs/iris_sml.png> <./figs/iris_manual.png>] [8 <./figs/iris_results.png
+> <./figs/autompg_sml.png> <./figs/auto-mpg_manual.png>]
 No file main.bbl.
-[6] (./main.aux)
+[9 <./figs/auto-mpg-results.png>] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -485,11 +518,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2448 strings out of 493014
- 32441 string characters out of 6133351
- 97141 words of memory out of 5000000
- 5936 multiletter control sequences out of 15000+600000
- 20263 words of font info for 77 fonts, out of 8000000 for 9000
+ 2518 strings out of 493014
+ 33952 string characters out of 6133351
+ 97240 words of memory out of 5000000
+ 5992 multiletter control sequences out of 15000+600000
+ 20717 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,23p,1226b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -497,14 +530,16 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (6 pages, 344536 bytes).
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (9 pages, 1940415 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
