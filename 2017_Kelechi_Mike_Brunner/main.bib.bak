@@ -1,0 +1,34 @@
+@inproceedings{pedros:fewUsefulThings,
+ author = {Domingos, Pedro},
+ title = {A Few Useful Things to Know About Machine Learning},
+ journal = {Commun. ACM},
+ issue_date = {October 2012},
+ volume = {55},
+ number = {10},
+ month = oct,
+ year = {2012},
+ issn = {0001-0782},
+ pages = {78--87},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/2347736.2347755},
+ doi = {10.1145/2347736.2347755},
+ acmid = {2347755},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@article{TPOT,
+  author    = {Randal S. Olson and
+               Nathan Bartley and
+               Ryan J. Urbanowicz and
+               Jason H. Moore},
+  title     = {Evaluation of a Tree-based Pipeline Optimization Tool for Automating
+               Data Science},
+  journal   = {CoRR},
+  volume    = {abs/1603.06212},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1603.06212},
+  timestamp = {Sat, 02 Apr 2016 11:49:48 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/OlsonBUM16},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}

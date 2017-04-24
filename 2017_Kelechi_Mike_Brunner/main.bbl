@@ -1,0 +1,16 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\BCAY{Domingos}{Domingos}{2012}]{pedros:fewUsefulThings}
+Domingos, P. \BBOP2012\BBCP.
+\newblock \BBOQ A few useful things to know about machine learning\BBCQ.
+\newblock \lowercase{\BVOL}~55, \BPGS\ 78--87, New York, NY, USA. ACM.
+
+\bibitem[\protect\BCAY{Olson, Bartley, Urbanowicz,\ \BBA\ Moore}{Olson
+  et~al.}{2016}]{TPOT}
+Olson, R.~S., Bartley, N., Urbanowicz, R.~J., \BBA\ Moore, J.~H.
+  \BBOP2016\BBCP.
+\newblock \BBOQ Evaluation of a tree-based pipeline optimization tool for
+  automating data science\BBCQ\
+\newblock {\Bem CoRR}, {\Bem abs/1603.06212}.
+
+\end{thebibliography}
