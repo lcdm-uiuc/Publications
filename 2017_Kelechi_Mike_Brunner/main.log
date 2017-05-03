@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 APR 2017 12:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAY 2017 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -140,11 +140,7 @@ LaTeX Info: Redefining \] on input line 2740.
 LaTeX Warning: Unused global option(s):
     [jair,theapa].
 
-(./main.aux
-
-LaTeX Warning: Label `SML:Github' multiply defined.
-
-)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -159,7 +155,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
- (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen114
@@ -219,102 +216,24 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<figs/sml-ex-1.png, id=1, 941.31676pt x 129.48375pt>
-File: figs/sml-ex-1.png Graphic file (type png)
- <use figs/sml-ex-1.png>
-Package pdftex.def Info: figs/sml-ex-1.png used on input line 43.
-(pdftex.def)             Requested size: 260.17464pt x 35.78694pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
+Underfull \vbox (badness 1383) has occurred while \output is active []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
  [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
+<figs/sml-ex-1.png, id=13, 941.31676pt x 129.48375pt>
+File: figs/sml-ex-1.png Graphic file (type png)
+ <use figs/sml-ex-1.png>
+Package pdftex.def Info: figs/sml-ex-1.png used on input line 42.
+(pdftex.def)             Requested size: 260.17464pt x 35.78694pt.
 
-LaTeX Warning: Citation `TPOT' on page 2 undefined. on input line 52.
-
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
 [2 <./figs/sml-ex-1.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -388,180 +307,243 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-
-
-LaTeX Warning: Reference `SML:BNFComp' on page 3 undefined on input line 96.
-
-<figs/bnf_ex.png, id=23, 937.70325pt x 251.13824pt>
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ <figs/bnf_ex.png, id=20, 937.70325pt x 251.13824pt>
 File: figs/bnf_ex.png Graphic file (type png)
- <use figs/bnf_ex.png>
-Package pdftex.def Info: figs/bnf_ex.png used on input line 100.
+
+<use figs/bnf_ex.png>
+Package pdftex.def Info: figs/bnf_ex.png used on input line 101.
 (pdftex.def)             Requested size: 260.17464pt x 69.67827pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 [][]\OT1/cmr/m/n/9 Detailed Doc-u-men-ta-tion is pub-licly avail-able on github
 : https://github.com/lcdm-
  []
 
-<figs/READ.png, id=24, 844.3545pt x 70.46326pt>
+[3 <./figs/bnf_ex.png>] <figs/READ.png, id=26, 844.3545pt x 70.46326pt>
 File: figs/READ.png Graphic file (type png)
- <use figs/READ.png>
-Package pdftex.def Info: figs/READ.png used on input line 114.
+
+<use figs/READ.png>
+Package pdftex.def Info: figs/READ.png used on input line 115.
 (pdftex.def)             Requested size: 260.17464pt x 21.7122pt.
-
-<figs/REPLACE.png, id=25, 935.29425pt x 68.6565pt>
+ <figs/REPLACE.png, id=27, 935.29425pt x 68.6565pt>
 File: figs/REPLACE.png Graphic file (type png)
- <use figs/REPLACE.png>
-Package pdftex.def Info: figs/REPLACE.png used on input line 124.
-(pdftex.def)             Requested size: 260.17464pt x 19.09796pt.
 
-[3 <./figs/bnf_ex.png>] <figs/SPLIT.png, id=30, 880.4895pt x 61.4295pt>
+<use figs/REPLACE.png>
+Package pdftex.def Info: figs/REPLACE.png used on input line 125.
+(pdftex.def)             Requested size: 260.17464pt x 19.09796pt.
+ <figs/SPLIT.png, id=28, 880.4895pt x 61.4295pt>
 File: figs/SPLIT.png Graphic file (type png)
 
 <use figs/SPLIT.png>
-Package pdftex.def Info: figs/SPLIT.png used on input line 134.
+Package pdftex.def Info: figs/SPLIT.png used on input line 135.
 (pdftex.def)             Requested size: 260.17464pt x 18.15154pt.
- <figs/CLASSIFY.png, id=31, 941.31676pt x 109.6095pt>
+ [4 <./figs/READ.png> <./figs/REPLACE.png> <./figs/SPLIT.png>] <figs/CLASSIFY.p
+ng, id=36, 941.31676pt x 109.6095pt>
 File: figs/CLASSIFY.png Graphic file (type png)
 
 <use figs/CLASSIFY.png>
-Package pdftex.def Info: figs/CLASSIFY.png used on input line 144.
+Package pdftex.def Info: figs/CLASSIFY.png used on input line 145.
 (pdftex.def)             Requested size: 260.17464pt x 30.29405pt.
- <figs/CLUSTER.png, id=32, 934.692pt x 112.62074pt>
+ <figs/CLUSTER.png, id=37, 934.692pt x 112.62074pt>
 File: figs/CLUSTER.png Graphic file (type png)
 
 <use figs/CLUSTER.png>
-Package pdftex.def Info: figs/CLUSTER.png used on input line 154.
+Package pdftex.def Info: figs/CLUSTER.png used on input line 155.
 (pdftex.def)             Requested size: 260.17464pt x 31.34799pt.
- <figs/REGRESS.png, id=33, 936.49875pt x 148.1535pt>
+ <figs/REGRESS.png, id=38, 936.49875pt x 148.1535pt>
 File: figs/REGRESS.png Graphic file (type png)
 
 <use figs/REGRESS.png>
-Package pdftex.def Info: figs/REGRESS.png used on input line 164.
+Package pdftex.def Info: figs/REGRESS.png used on input line 165.
 (pdftex.def)             Requested size: 260.17464pt x 41.15942pt.
- <figs/SAVE_LOAD.png, id=34, 445.665pt x 78.89474pt>
+ <figs/SAVE_LOAD.png, id=39, 445.665pt x 78.89474pt>
 File: figs/SAVE_LOAD.png Graphic file (type png)
 
 <use figs/SAVE_LOAD.png>
-Package pdftex.def Info: figs/SAVE_LOAD.png used on input line 174.
+Package pdftex.def Info: figs/SAVE_LOAD.png used on input line 175.
 (pdftex.def)             Requested size: 130.08731pt x 23.02815pt.
-
-Underfull \vbox (badness 2970) has occurred while \output is active []
-
- [4 <./figs/READ.png> <./figs/REPLACE.png> <./figs/SPLIT.png>]
-<figs/PLOT.png, id=41, 937.70325pt x 145.7445pt>
+ [5 <./figs/CLASSIFY.png> <./figs/CLUSTER.png>]
+<figs/PLOT.png, id=45, 937.70325pt x 145.7445pt>
 File: figs/PLOT.png Graphic file (type png)
  <use figs/PLOT.png>
-Package pdftex.def Info: figs/PLOT.png used on input line 184.
+Package pdftex.def Info: figs/PLOT.png used on input line 185.
 (pdftex.def)             Requested size: 260.17464pt x 40.43678pt.
 
-<figs/architecture.png, id=42, 868.4445pt x 463.7325pt>
+<figs/architecture.png, id=46, 868.4445pt x 463.7325pt>
 File: figs/architecture.png Graphic file (type png)
 
 <use figs/architecture.png>
-Package pdftex.def Info: figs/architecture.png used on input line 196.
+Package pdftex.def Info: figs/architecture.png used on input line 197.
 (pdftex.def)             Requested size: 260.17464pt x 138.92268pt.
-
-Underfull \vbox (badness 6236) has occurred while \output is active []
-
- [5 <./figs/CLASSIFY.png> <./figs/CLUSTER.png> <./figs/REGRESS.png>]
-<figs/connector.png, id=49, 963.6pt x 542.025pt>
+ [6 <./figs/REGRESS.png> <./figs/SAVE_LOAD.png> <./figs/PLOT.png>] <figs/connec
+tor.png, id=53, 963.6pt x 542.025pt>
 File: figs/connector.png Graphic file (type png)
- <use figs/connector.png>
+
+<use figs/connector.png>
 Package pdftex.def Info: figs/connector.png used on input line 208.
 (pdftex.def)             Requested size: 260.17464pt x 146.3487pt.
 
-<figs/sml-web-site.png, id=50, 1925.1925pt x 670.505pt>
+<figs/sml-web-site.png, id=54, 1925.1925pt x 670.505pt>
 File: figs/sml-web-site.png Graphic file (type png)
 
 <use figs/sml-web-site.png>
 Package pdftex.def Info: figs/sml-web-site.png used on input line 220.
 (pdftex.def)             Requested size: 260.17464pt x 90.60634pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation `Github:DataFlows' on page 6 undefined. on input line 2
-32.
-
-[6 <./figs/SAVE_LOAD.png> <./figs/PLOT.png> <./figs/architecture.png>] [7 <./fi
-gs/connector.png> <./figs/sml-web-site.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
+ [7 <./figs/architecture.png> <./figs/connector.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 232--232
 [][]\OT1/cmr/m/n/9 https://github.com/lcdm-uiuc/sml/blob/master/dataflows/plot/
 iris[]svm-READ-SPLIT-CLASSIFY-
  []
 
-<figs/iris_sml.png, id=63, 893.13675pt x 238.491pt>
+
+Underfull \vbox (badness 2165) has occurred while \output is active []
+
+ [8 <./figs/sml-web-site.png>] <figs/iris_sml.png, id=65, 893.13675pt x 238.491
+pt>
 File: figs/iris_sml.png Graphic file (type png)
- <use figs/iris_sml.png>
-Package pdftex.def Info: figs/iris_sml.png used on input line 238.
+
+<use figs/iris_sml.png>
+Package pdftex.def Info: figs/iris_sml.png used on input line 235.
 (pdftex.def)             Requested size: 260.17464pt x 69.47357pt.
 
-<figs/iris_manual.png, id=64, 1159.33125pt x 709.65125pt>
+<figs/iris_manual.png, id=66, 1159.33125pt x 709.65125pt>
 File: figs/iris_manual.png Graphic file (type png)
 
 <use figs/iris_manual.png>
-Package pdftex.def Info: figs/iris_manual.png used on input line 245.
+Package pdftex.def Info: figs/iris_manual.png used on input line 242.
 (pdftex.def)             Requested size: 260.17464pt x 159.25316pt.
 
-<figs/iris_results.png, id=65, 1444.39626pt x 697.60625pt>
+<figs/iris_results.png, id=67, 1444.39626pt x 697.60625pt>
 File: figs/iris_results.png Graphic file (type png)
 
 <use figs/iris_results.png>
-Package pdftex.def Info: figs/iris_results.png used on input line 252.
+Package pdftex.def Info: figs/iris_results.png used on input line 249.
 (pdftex.def)             Requested size: 260.17464pt x 125.64885pt.
- [8 <./figs/iris_sml.png>] [9 <./figs/iris_manual.png> <./figs/iris_results.png
->]
-<figs/autompg_sml.png, id=75, 852.786pt x 246.9225pt>
+
+<figs/autompg_sml.png, id=68, 852.786pt x 246.9225pt>
 File: figs/autompg_sml.png Graphic file (type png)
 
 <use figs/autompg_sml.png>
-Package pdftex.def Info: figs/autompg_sml.png used on input line 263.
+Package pdftex.def Info: figs/autompg_sml.png used on input line 260.
 (pdftex.def)             Requested size: 260.17464pt x 75.33195pt.
 
-<figs/auto-mpg_manual.png, id=76, 1606.0pt x 713.66624pt>
+<figs/auto-mpg_manual.png, id=69, 1606.0pt x 713.66624pt>
 File: figs/auto-mpg_manual.png Graphic file (type png)
 
 <use figs/auto-mpg_manual.png>
-Package pdftex.def Info: figs/auto-mpg_manual.png used on input line 270.
+Package pdftex.def Info: figs/auto-mpg_manual.png used on input line 267.
 (pdftex.def)             Requested size: 260.17464pt x 115.61546pt.
 
-<figs/auto-mpg-results.png, id=77, 1591.9475pt x 377.41pt>
+<figs/auto-mpg-results.png, id=70, 1591.9475pt x 377.41pt>
 File: figs/auto-mpg-results.png Graphic file (type png)
 
 <use figs/auto-mpg-results.png>
-Package pdftex.def Info: figs/auto-mpg-results.png used on input line 277.
+Package pdftex.def Info: figs/auto-mpg-results.png used on input line 274.
 (pdftex.def)             Requested size: 260.17464pt x 61.6768pt.
- [10 <./figs/autompg_sml.png> <./figs/auto-mpg_manual.png> <./figs/auto-mpg-res
-ults.png>] (./main.bbl) [11] (./main.aux)
 
-LaTeX Warning: There were undefined references.
+Underfull \vbox (badness 1603) has occurred while \output is active []
 
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ [9 <./figs/iris_sml.png> <./figs/iris_manual.png>] [10 <./figs/iris_results.pn
+g> <./figs/autompg_sml.png> <./figs/auto-mpg_manual.png>] (./main.bbl [11 <./fi
+gs/auto-mpg-results.png>]) [12] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2536 strings out of 493014
- 34359 string characters out of 6133351
- 98371 words of memory out of 5000000
- 6005 multiletter control sequences out of 15000+600000
- 20717 words of font info for 79 fonts, out of 8000000 for 9000
+ 2541 strings out of 493014
+ 34405 string characters out of 6133351
+ 98639 words of memory out of 5000000
+ 6010 multiletter control sequences out of 15000+600000
+ 20263 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,23p,1078b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (11 pages, 2093002 bytes).
+ 38i,14n,23p,1350b,258s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (12 pages, 2091143 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

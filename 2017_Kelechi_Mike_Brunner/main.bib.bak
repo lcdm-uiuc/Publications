@@ -14,7 +14,7 @@
  doi = {10.1145/2347736.2347755},
  acmid = {2347755},
  publisher = {ACM},
- address = {New York, NY, USA},
+ address = {New York, NY, USA}
 } 
 
 @article{TPOT,
@@ -32,3 +32,11 @@
   biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/OlsonBUM16},
   bibsource = {dblp computer science bibliography, http://dblp.org}
 }
+
+@misc{Lichman:2013 ,
+author = "M. Lichman",
+year = "2013",
+title = "{UCI} Machine Learning Repository",
+url = "http://archive.ics.uci.edu/ml",
+institution = "University of California, Irvine, School of Information and Computer Sciences" }
+

@@ -3,49 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: theapa.bst
 Database file #1: main.bib
-Warning--I didn't find a database entry for "Github:DataFlows"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty booktitle in pedros:fewUsefulThings
 Warning--can't use both \losercase{\BVOL\ and \BNUM} fields in pedros:fewUsefulThings
-You've used 2 entries,
+You can't pop an empty literal stack for entry Roth05
+while executing---line 2867 of file theapa.bst
+You've used 5 entries,
             2804 wiz_defined-function locations,
-            626 strings with 5117 characters,
-and the built_in function-call counts, 918 in all, are:
-= -- 84
-> -- 46
-< -- 3
-+ -- 16
-- -- 15
-* -- 86
-:= -- 152
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 13
-chr.to.int$ -- 2
-cite$ -- 4
-duplicate$ -- 37
-empty$ -- 60
-format.name$ -- 17
-if$ -- 181
+            646 strings with 5500 characters,
+and the built_in function-call counts, 1857 in all, are:
+= -- 165
+> -- 86
+< -- 6
++ -- 28
+- -- 27
+* -- 164
+:= -- 312
+add.period$ -- 12
+call.type$ -- 5
+change.case$ -- 29
+chr.to.int$ -- 5
+cite$ -- 7
+duplicate$ -- 79
+empty$ -- 138
+format.name$ -- 34
+if$ -- 365
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 8
-pop$ -- 13
+missing$ -- 4
+newline$ -- 27
+num.names$ -- 20
+pop$ -- 36
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 34
 quote$ -- 0
-skip$ -- 30
+skip$ -- 62
 stack$ -- 0
-substring$ -- 39
-swap$ -- 14
+substring$ -- 60
+swap$ -- 23
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 16
+type$ -- 40
 warning$ -- 2
-while$ -- 9
+while$ -- 18
 width$ -- 0
-write$ -- 30
-(There were 3 warnings)
+write$ -- 66
+(There was 1 error message)

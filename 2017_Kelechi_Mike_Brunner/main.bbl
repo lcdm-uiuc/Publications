@@ -5,6 +5,10 @@ Domingos, P. \BBOP2012\BBCP.
 \newblock \BBOQ A few useful things to know about machine learning\BBCQ.
 \newblock \lowercase{\BVOL}~55, \BPGS\ 78--87, New York, NY, USA. ACM.
 
+\bibitem[\protect\BCAY{Lichman}{Lichman}{2013}]{Lichman:2013}
+Lichman, M. \BBOP2013\BBCP.
+\newblock \BBOQ {UCI} machine learning repository\BBCQ.
+
 \bibitem[\protect\BCAY{Olson, Bartley, Urbanowicz,\ \BBA\ Moore}{Olson
   et~al.}{2016}]{TPOT}
 Olson, R.~S., Bartley, N., Urbanowicz, R.~J., \BBA\ Moore, J.~H.
@@ -12,5 +16,16 @@ Olson, R.~S., Bartley, N., Urbanowicz, R.~J., \BBA\ Moore, J.~H.
 \newblock \BBOQ Evaluation of a tree-based pipeline optimization tool for
   automating data science\BBCQ\
 \newblock {\Bem CoRR}, {\Bem abs/1603.06212}.
+
+\bibitem[\protect\BCAY{Rizzolo\ \BBA\ Roth}{Rizzolo\ \BBA\
+  Roth}{2010}]{RizzoloRo10}
+Rizzolo, N.\BBACOMMA\  \BBA\ Roth, D. \BBOP2010\BBCP.
+\newblock \BBOQ Learning based java for rapid development of nlp systems\BBCQ\
+\newblock In {\Bem LREC}, Valletta, Malta.
+
+\bibitem[\protect\BCAY{Roth}{Roth}{2005}]{Roth05}
+Roth, D. \BBOP2005\BBCP.
+\newblock \BBOQ Learning based programming\BBCQ\
+\newblock {\Bem Innovations in Machine Learning: Theory and Applications}.
 
 \end{thebibliography}

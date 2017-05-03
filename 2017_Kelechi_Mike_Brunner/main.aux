@@ -2,8 +2,9 @@
 \citation{pedros:fewUsefulThings}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
 \newlabel{Introduction}{{1}{1}}
-\newlabel{SML:Github}{{1}{1}}
 \citation{TPOT}
+\citation{RizzoloRo10}
+\citation{Roth05}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Example of a SML Query performing classification.}}{2}}
 \newlabel{fig:sml-ex-1}{{1}{2}}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Related Works}{2}}
@@ -11,72 +12,74 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3}Grammar}{2}}
 \newlabel{grammar}{{3}{2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Grammar Structure}{2}}
-\newlabel{BNF:Query}{{1}{2}}
-\newlabel{BNF:Action}{{2}{2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Transcribing Figure 1\hbox {} into BNF form. Where the top query was defined in Figure 1\hbox {} and the bottom statement is in BNF format.}}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Transcribing Figure 1\hbox {} into BNF form. Where the top \(Query\) was defined in Figure 1\hbox {} and the bottom \(Query\) is in BNF format.}}{3}}
 \newlabel{fig:SML:BNFComp}{{2}{3}}
+\newlabel{BNF:Query}{{1}{3}}
+\newlabel{BNF:Action}{{2}{3}}
 \newlabel{BNF:Option}{{3}{3}}
 \newlabel{BNF:OptionList}{{4}{3}}
 \newlabel{BNF:OptionValueList}{{5}{3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Keywords}{3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Reading Datasets}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Example using the \(READ\) keyword in SML.}}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Example using the \(READ\) \(Keyword\) in SML.}}{4}}
 \newlabel{fig:SML:READ}{{3}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Example using the \(REPLACE\) \(Keyword\) in SML.}}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Example of an SML \(Query\) being used.}}{4}}
 \newlabel{fig:SML:REPLACE}{{4}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Keywords}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Reading Datasets}{4}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Cleaning Data}{4}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}Partitioning Datasets}{4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.4}Using Classification Algorithms}{4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.5}Using Clustering Algorithms}{4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.6}Using Regression Algorithms}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Example using the \(SPLIT\) keyword in SML.}}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Example using the \(SPLIT\) \(Keyword\) in SML.}}{4}}
 \newlabel{fig:SML:SPLIT}{{5}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Example using the \(CLASSIFY\) keyword in SML.}}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Example using the \(CLASSIFY\) \(Keyword\) in SML. Here we read in data and create training and testing datasets using the \(READ\) and \(SPLIT\) \(Keyword\)s respectively. We then use \(CLASSIFY\) \(Keyword\) with the first 4 columns as features and the 5th column to perform classification using a support vector machine.}}{5}}
 \newlabel{fig:SML:CLASSIFY}{{6}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Example using the \(CLUSTER\) keyword in SML.}}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Example using the \(CLUSTER\) \(Keyword\) in SML. Here we read in data and create training and testing datasets using the \(READ\) and \(SPLIT\) \(Keyword\)s respectively. We then use \(CLUSTER\) \(Keyword\) with the first 7 columns as features and perform unsupervised clustering with the K-Means algorithm.}}{5}}
 \newlabel{fig:SML:CLUSTER}{{7}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.4}Using Classification Algorithms}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.5}Using Clustering Algorithms}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.6}Using Regression Algorithms}{5}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.7}Saving/Loading Models}{5}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.8}Visualizing Datasets and Metrics of Algorithms}{5}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}SML's Architecture}{5}}
-\newlabel{sml-architecture}{{4}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Example using the \(REGRESS\) keyword in SML.}}{5}}
-\newlabel{fig:SML:REGRESS}{{8}{5}}
-\citation{Github:DataFlows}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Example using the \(LOAD\) and \(SAVE\) keywords in SML.}}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Example using the \(REGRESS\) \(Keyword\) in SML. Here we read in data and create training and testing datasets using the \(READ\) and \(SPLIT\) \(Keyword\)s respectively. We then use \(REGRESS\) \(Keyword\) with the first 9 columns as features and the 10th column to perform regression on using ridge regression.}}{6}}
+\newlabel{fig:SML:REGRESS}{{8}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Example using the \(LOAD\) and \(SAVE\) \(Keyword\)s in SML.}}{6}}
 \newlabel{fig:SML:SAVE_LOAD}{{9}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Example using the \(PLOT\) keyword in SML.}}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.8}Visualizing Datasets and Metrics of Algorithms}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}SML's Architecture}{6}}
+\newlabel{sml-architecture}{{4}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Example using the \(PLOT\) \(Keyword\) in SML.}}{6}}
 \newlabel{fig:SML:PLOT}{{10}{6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.0.1}Connector}{6}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Interface}{6}}
-\newlabel{interface}{{5}{6}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Use Cases}{6}}
-\newlabel{use-cases}{{6}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Block Diagram of SML's Architecture}}{6}}
-\newlabel{fig:SML:Architecture}{{11}{6}}
+\citation{Lichman:2013}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Block Diagram of SML's Architecture}}{7}}
+\newlabel{fig:SML:Architecture}{{11}{7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Block Diagram of SML's Connector}}{7}}
 \newlabel{fig:SML:Connector}{{12}{7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Interface of SML website. The user to interact with SML through a web interface (see Figure 13\hbox {}). Currently users can read instructions on the right to see examples of how to use SML. In the middle pane users can type SML Queries and then hit the execute button. The results of the query are explained on the right pane.}}{7}}
-\newlabel{fig:SML:website}{{13}{7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces SML query that performs classification on the iris dataset using support vector machines.}}{8}}
-\newlabel{fig:SML:IrisQuery}{{14}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}10 Use Cases}{8}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1}Iris Dataset}{8}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.2}Auto-Mpg Dataset}{8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces This shows the code required to replicate the same actions of the SML query in Figure 14\hbox {}}}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Interface}{7}}
+\newlabel{interface}{{5}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Interface of SML website. The user to interact with SML through a web interface (see Figure 13\hbox {}). Currently users can read instructions on the right to see examples of how to use SML. In the middle pane users can type SML Queries and then hit the execute button. The results of the \(Query\) are explained on the right pane.}}{8}}
+\newlabel{fig:SML:website}{{13}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Use Cases}{8}}
+\newlabel{use-cases}{{6}{8}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.0.1}Iris Dataset}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces SML \(Query\) that performs classification on the iris dataset using support vector machines.}}{9}}
+\newlabel{fig:SML:IrisQuery}{{14}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces This shows the code required to replicate the same actions of the SML \(Query\) in Figure 14\hbox {}}}{9}}
 \newlabel{fig:Manual:IrisCode}{{15}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces The SML query in Figure 14\hbox {} and the code in Figure 15\hbox {} produce these results. The subgraph on the left is a lattice plot showing the density estimates of each feature used. The graph on the right shows the ROC curves for each class of the iris dataset.}}{9}}
-\newlabel{fig:IrisResults}{{16}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces SML query that performs classification on the Auto-MPG dataset using support vector machines.}}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.0.2}Auto-Mpg Dataset}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces The SML \(Query\) in Figure 14\hbox {} and the code in Figure 15\hbox {} produce these results. The subgraph on the left is a lattice plot showing the density estimates of each feature used. The graph on the right shows the ROC curves for each class of the iris dataset.}}{10}}
+\newlabel{fig:IrisResults}{{16}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces SML \(Query\) that performs classification on the Auto-MPG dataset using support vector machines.}}{10}}
 \newlabel{fig:SML:AutoMPGQuery}{{17}{10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces This shows the code required to replicate the same actions of the SML query in Figure 17\hbox {}}}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces This shows the code required to replicate the same actions of the SML \(Query\) in Figure 17\hbox {}}}{10}}
 \newlabel{fig:Manual:Auto-MPG}{{18}{10}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{10}}
-\newlabel{conclusion}{{7}{10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces The SML query in Figure 17\hbox {} and the code in Figure 18\hbox {} produce these results. The subgraph on the left is a lattice plot showing the density estimates of each feature used. The the centered shows the learning curve of the model and the graph on right shows the validation curve.}}{10}}
-\newlabel{fig:AutoMPG:Results}{{19}{10}}
 \bibdata{main}
 \bibcite{pedros:fewUsefulThings}{\BCAY {Domingos}{Domingos}{2012}}
-\bibcite{TPOT}{\BCAY {Olson, Bartley, Urbanowicz,\ \BBA\ Moore}{Olson et\nobreakspace  {}al.}{2016}}
-\bibstyle{theapa}
+\bibcite{Lichman:2013}{\BCAY {Lichman}{Lichman}{2013}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces The SML \(Query\) in Figure 17\hbox {} and the code in Figure 18\hbox {} produce these results. The subgraph on the left is a lattice plot showing the density estimates of each feature used. The the centered shows the learning curve of the model and the graph on right shows the validation curve.}}{11}}
+\newlabel{fig:AutoMPG:Results}{{19}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Discussion}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{11}}
+\newlabel{conclusion}{{7}{11}}
 \@writefile{toc}{\contentsline {section}{References}{11}}
 \newlabel{SML:Github}{{14}{11}}
+\bibcite{TPOT}{\BCAY {Olson, Bartley, Urbanowicz,\ \BBA\ Moore}{Olson et\nobreakspace  {}al.}{2016}}
+\bibcite{RizzoloRo10}{\BCAY {Rizzolo\ \BBA\ Roth}{Rizzolo\ \BBA\ Roth}{2010}}
+\bibcite{Roth05}{\BCAY {Roth}{Roth}{2005}}
+\bibstyle{theapa}
