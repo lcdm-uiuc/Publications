@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAY 2017 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 MAY 2017 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,56 +385,50 @@ File: figs/bnf_ex.png Graphic file (type png)
 <use figs/bnf_ex.png>
 Package pdftex.def Info: figs/bnf_ex.png used on input line 101.
 (pdftex.def)             Requested size: 260.17464pt x 69.67827pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[][]\OT1/cmr/m/n/9 Detailed Doc-u-men-ta-tion is pub-licly avail-able on github
-: https://github.com/lcdm-
- []
-
-[3 <./figs/bnf_ex.png>] <figs/READ.png, id=26, 844.3545pt x 70.46326pt>
+ [3 <./figs/bnf_ex.png>]
+<figs/READ.png, id=26, 844.3545pt x 70.46326pt>
 File: figs/READ.png Graphic file (type png)
-
-<use figs/READ.png>
+ <use figs/READ.png>
 Package pdftex.def Info: figs/READ.png used on input line 115.
 (pdftex.def)             Requested size: 260.17464pt x 21.7122pt.
- <figs/REPLACE.png, id=27, 935.29425pt x 68.6565pt>
-File: figs/REPLACE.png Graphic file (type png)
 
-<use figs/REPLACE.png>
+<figs/REPLACE.png, id=27, 935.29425pt x 68.6565pt>
+File: figs/REPLACE.png Graphic file (type png)
+ <use figs/REPLACE.png>
 Package pdftex.def Info: figs/REPLACE.png used on input line 125.
 (pdftex.def)             Requested size: 260.17464pt x 19.09796pt.
- <figs/SPLIT.png, id=28, 880.4895pt x 61.4295pt>
-File: figs/SPLIT.png Graphic file (type png)
 
-<use figs/SPLIT.png>
+<figs/SPLIT.png, id=28, 880.4895pt x 61.4295pt>
+File: figs/SPLIT.png Graphic file (type png)
+ <use figs/SPLIT.png>
 Package pdftex.def Info: figs/SPLIT.png used on input line 135.
 (pdftex.def)             Requested size: 260.17464pt x 18.15154pt.
- [4 <./figs/READ.png> <./figs/REPLACE.png> <./figs/SPLIT.png>] <figs/CLASSIFY.p
-ng, id=36, 941.31676pt x 109.6095pt>
+ [4 <./figs/READ.png> <./figs/REPLACE.png> <./figs/SPLIT.png>]
+<figs/CLASSIFY.png, id=36, 941.31676pt x 109.6095pt>
 File: figs/CLASSIFY.png Graphic file (type png)
-
-<use figs/CLASSIFY.png>
+ <use figs/CLASSIFY.png>
 Package pdftex.def Info: figs/CLASSIFY.png used on input line 145.
 (pdftex.def)             Requested size: 260.17464pt x 30.29405pt.
- <figs/CLUSTER.png, id=37, 934.692pt x 112.62074pt>
-File: figs/CLUSTER.png Graphic file (type png)
 
-<use figs/CLUSTER.png>
+<figs/CLUSTER.png, id=37, 934.692pt x 112.62074pt>
+File: figs/CLUSTER.png Graphic file (type png)
+ <use figs/CLUSTER.png>
 Package pdftex.def Info: figs/CLUSTER.png used on input line 155.
 (pdftex.def)             Requested size: 260.17464pt x 31.34799pt.
- <figs/REGRESS.png, id=38, 936.49875pt x 148.1535pt>
-File: figs/REGRESS.png Graphic file (type png)
 
-<use figs/REGRESS.png>
+<figs/REGRESS.png, id=38, 936.49875pt x 148.1535pt>
+File: figs/REGRESS.png Graphic file (type png)
+ <use figs/REGRESS.png>
 Package pdftex.def Info: figs/REGRESS.png used on input line 165.
 (pdftex.def)             Requested size: 260.17464pt x 41.15942pt.
- <figs/SAVE_LOAD.png, id=39, 445.665pt x 78.89474pt>
-File: figs/SAVE_LOAD.png Graphic file (type png)
 
-<use figs/SAVE_LOAD.png>
+<figs/SAVE_LOAD.png, id=39, 445.665pt x 78.89474pt>
+File: figs/SAVE_LOAD.png Graphic file (type png)
+ <use figs/SAVE_LOAD.png>
 Package pdftex.def Info: figs/SAVE_LOAD.png used on input line 175.
 (pdftex.def)             Requested size: 130.08731pt x 23.02815pt.
- [5 <./figs/CLASSIFY.png> <./figs/CLUSTER.png>]
+
+[5 <./figs/CLASSIFY.png> <./figs/CLUSTER.png>]
 <figs/PLOT.png, id=45, 937.70325pt x 145.7445pt>
 File: figs/PLOT.png Graphic file (type png)
  <use figs/PLOT.png>
@@ -466,18 +460,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./figs/architecture.png> <./figs/connector.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 232--232
-[][]\OT1/cmr/m/n/9 https://github.com/lcdm-uiuc/sml/blob/master/dataflows/plot/
-iris[]svm-READ-SPLIT-CLASSIFY-
+[][]\OT1/cmr/m/n/9 For a de-tailed doc-u-men-ta-tion de-scrib-ing this code vis
+it: https://github.com/lcdm-
  []
 
-
-Underfull \vbox (badness 2165) has occurred while \output is active []
-
- [8 <./figs/sml-web-site.png>] <figs/iris_sml.png, id=65, 893.13675pt x 238.491
-pt>
+[8 <./figs/sml-web-site.png>]
+<figs/iris_sml.png, id=65, 893.13675pt x 238.491pt>
 File: figs/iris_sml.png Graphic file (type png)
-
-<use figs/iris_sml.png>
+ <use figs/iris_sml.png>
 Package pdftex.def Info: figs/iris_sml.png used on input line 235.
 (pdftex.def)             Requested size: 260.17464pt x 69.47357pt.
 
@@ -494,6 +484,17 @@ File: figs/iris_results.png Graphic file (type png)
 <use figs/iris_results.png>
 Package pdftex.def Info: figs/iris_results.png used on input line 249.
 (pdftex.def)             Requested size: 260.17464pt x 125.64885pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+[][]\OT1/cmr/m/n/9 For a de-tailed doc-u-men-ta-tion de-scrib-ing this code vis
+it: https://github.com/lcdm-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+\OT1/cmr/m/n/9 uiuc/sml/blob/master/dataflows/plot/autompg[]linear[]regression-
+READ-SPLIT-REGRESS-
+ []
 
 <figs/autompg_sml.png, id=68, 852.786pt x 246.9225pt>
 File: figs/autompg_sml.png Graphic file (type png)
@@ -516,19 +517,19 @@ File: figs/auto-mpg-results.png Graphic file (type png)
 Package pdftex.def Info: figs/auto-mpg-results.png used on input line 274.
 (pdftex.def)             Requested size: 260.17464pt x 61.6768pt.
 
-Underfull \vbox (badness 1603) has occurred while \output is active []
+Underfull \vbox (badness 2150) has occurred while \output is active []
 
  [9 <./figs/iris_sml.png> <./figs/iris_manual.png>] [10 <./figs/iris_results.pn
 g> <./figs/autompg_sml.png> <./figs/auto-mpg_manual.png>] (./main.bbl [11 <./fi
 gs/auto-mpg-results.png>]) [12] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2541 strings out of 493014
- 34405 string characters out of 6133351
- 98639 words of memory out of 5000000
- 6010 multiletter control sequences out of 15000+600000
+ 2542 strings out of 493014
+ 34419 string characters out of 6133351
+ 98647 words of memory out of 5000000
+ 6011 multiletter control sequences out of 15000+600000
  20263 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,23p,1350b,258s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,14n,23p,1323b,258s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist
@@ -540,7 +541,7 @@ nts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts
 pe1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (12 pages, 2091143 bytes).
+Output written on main.pdf (12 pages, 2091885 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
