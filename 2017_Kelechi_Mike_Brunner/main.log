@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 MAY 2017 21:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 MAY 2017 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -143,18 +143,18 @@ LaTeX Warning: Unused global option(s):
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -216,25 +216,27 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Underfull \vbox (badness 1383) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
  [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 <figs/sml-ex-1.png, id=13, 941.31676pt x 129.48375pt>
 File: figs/sml-ex-1.png Graphic file (type png)
  <use figs/sml-ex-1.png>
-Package pdftex.def Info: figs/sml-ex-1.png used on input line 42.
-(pdftex.def)             Requested size: 260.17464pt x 35.78694pt.
+Package pdftex.def Info: figs/sml-ex-1.png used on input line 44.
+(pdftex.def)             Requested size: 346.89731pt x 47.71657pt.
 
-[2 <./figs/sml-ex-1.png>]
+Underfull \vbox (badness 4391) has occurred while \output is active []
+
+ [2 <./figs/sml-ex-1.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -379,172 +381,168 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- <figs/bnf_ex.png, id=20, 937.70325pt x 251.13824pt>
+ <figs/bnf_ex.png, id=19, 1236.62pt x 328.22626pt>
 File: figs/bnf_ex.png Graphic file (type png)
 
 <use figs/bnf_ex.png>
-Package pdftex.def Info: figs/bnf_ex.png used on input line 101.
-(pdftex.def)             Requested size: 260.17464pt x 69.67827pt.
- [3 <./figs/bnf_ex.png>]
-<figs/READ.png, id=26, 844.3545pt x 70.46326pt>
+Package pdftex.def Info: figs/bnf_ex.png used on input line 103.
+(pdftex.def)             Requested size: 260.17464pt x 69.05475pt.
+ [3] <figs/READ.png, id=26, 844.3545pt x 70.46326pt>
 File: figs/READ.png Graphic file (type png)
- <use figs/READ.png>
-Package pdftex.def Info: figs/READ.png used on input line 115.
-(pdftex.def)             Requested size: 260.17464pt x 21.7122pt.
 
-<figs/REPLACE.png, id=27, 935.29425pt x 68.6565pt>
+<use figs/READ.png>
+Package pdftex.def Info: figs/READ.png used on input line 116.
+(pdftex.def)             Requested size: 346.89731pt x 28.94925pt.
+ <figs/REPLACE.png, id=27, 935.29425pt x 68.6565pt>
 File: figs/REPLACE.png Graphic file (type png)
- <use figs/REPLACE.png>
-Package pdftex.def Info: figs/REPLACE.png used on input line 125.
-(pdftex.def)             Requested size: 260.17464pt x 19.09796pt.
 
-<figs/SPLIT.png, id=28, 880.4895pt x 61.4295pt>
-File: figs/SPLIT.png Graphic file (type png)
- <use figs/SPLIT.png>
-Package pdftex.def Info: figs/SPLIT.png used on input line 135.
-(pdftex.def)             Requested size: 260.17464pt x 18.15154pt.
- [4 <./figs/READ.png> <./figs/REPLACE.png> <./figs/SPLIT.png>]
-<figs/CLASSIFY.png, id=36, 941.31676pt x 109.6095pt>
-File: figs/CLASSIFY.png Graphic file (type png)
- <use figs/CLASSIFY.png>
-Package pdftex.def Info: figs/CLASSIFY.png used on input line 145.
-(pdftex.def)             Requested size: 260.17464pt x 30.29405pt.
-
-<figs/CLUSTER.png, id=37, 934.692pt x 112.62074pt>
-File: figs/CLUSTER.png Graphic file (type png)
- <use figs/CLUSTER.png>
-Package pdftex.def Info: figs/CLUSTER.png used on input line 155.
-(pdftex.def)             Requested size: 260.17464pt x 31.34799pt.
-
-<figs/REGRESS.png, id=38, 936.49875pt x 148.1535pt>
-File: figs/REGRESS.png Graphic file (type png)
- <use figs/REGRESS.png>
-Package pdftex.def Info: figs/REGRESS.png used on input line 165.
-(pdftex.def)             Requested size: 260.17464pt x 41.15942pt.
-
-<figs/SAVE_LOAD.png, id=39, 445.665pt x 78.89474pt>
-File: figs/SAVE_LOAD.png Graphic file (type png)
- <use figs/SAVE_LOAD.png>
-Package pdftex.def Info: figs/SAVE_LOAD.png used on input line 175.
-(pdftex.def)             Requested size: 130.08731pt x 23.02815pt.
-
-[5 <./figs/CLASSIFY.png> <./figs/CLUSTER.png>]
-<figs/PLOT.png, id=45, 937.70325pt x 145.7445pt>
-File: figs/PLOT.png Graphic file (type png)
- <use figs/PLOT.png>
-Package pdftex.def Info: figs/PLOT.png used on input line 185.
-(pdftex.def)             Requested size: 260.17464pt x 40.43678pt.
-
-<figs/architecture.png, id=46, 868.4445pt x 463.7325pt>
-File: figs/architecture.png Graphic file (type png)
-
-<use figs/architecture.png>
-Package pdftex.def Info: figs/architecture.png used on input line 197.
-(pdftex.def)             Requested size: 260.17464pt x 138.92268pt.
- [6 <./figs/REGRESS.png> <./figs/SAVE_LOAD.png> <./figs/PLOT.png>] <figs/connec
-tor.png, id=53, 963.6pt x 542.025pt>
-File: figs/connector.png Graphic file (type png)
-
-<use figs/connector.png>
-Package pdftex.def Info: figs/connector.png used on input line 208.
-(pdftex.def)             Requested size: 260.17464pt x 146.3487pt.
-
-<figs/sml-web-site.png, id=54, 1925.1925pt x 670.505pt>
-File: figs/sml-web-site.png Graphic file (type png)
-
-<use figs/sml-web-site.png>
-Package pdftex.def Info: figs/sml-web-site.png used on input line 220.
-(pdftex.def)             Requested size: 260.17464pt x 90.60634pt.
+<use figs/REPLACE.png>
+Package pdftex.def Info: figs/REPLACE.png used on input line 126.
+(pdftex.def)             Requested size: 346.89731pt x 25.4643pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./figs/architecture.png> <./figs/connector.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 232--232
+ [4 <./figs/bnf_ex.png> <./figs/READ.png>]
+<figs/SPLIT.png, id=33, 880.4895pt x 61.4295pt>
+File: figs/SPLIT.png Graphic file (type png)
+ <use figs/SPLIT.png>
+Package pdftex.def Info: figs/SPLIT.png used on input line 136.
+(pdftex.def)             Requested size: 346.89731pt x 24.20204pt.
+
+<figs/CLASSIFY.png, id=34, 941.31676pt x 109.6095pt>
+File: figs/CLASSIFY.png Graphic file (type png)
+ <use figs/CLASSIFY.png>
+Package pdftex.def Info: figs/CLASSIFY.png used on input line 146.
+(pdftex.def)             Requested size: 346.89731pt x 40.39262pt.
+
+<figs/CLUSTER.png, id=35, 934.692pt x 112.62074pt>
+File: figs/CLUSTER.png Graphic file (type png)
+ <use figs/CLUSTER.png>
+Package pdftex.def Info: figs/CLUSTER.png used on input line 156.
+(pdftex.def)             Requested size: 346.89731pt x 41.79617pt.
+
+<figs/REGRESS.png, id=36, 936.49875pt x 148.1535pt>
+File: figs/REGRESS.png Graphic file (type png)
+ <use figs/REGRESS.png>
+Package pdftex.def Info: figs/REGRESS.png used on input line 166.
+(pdftex.def)             Requested size: 346.89731pt x 54.87923pt.
+
+[5 <./figs/REPLACE.png> <./figs/SPLIT.png> <./figs/CLASSIFY.png>]
+<figs/SAVE_LOAD.png, id=43, 445.665pt x 78.89474pt>
+File: figs/SAVE_LOAD.png Graphic file (type png)
+ <use figs/SAVE_LOAD.png>
+Package pdftex.def Info: figs/SAVE_LOAD.png used on input line 176.
+(pdftex.def)             Requested size: 173.44534pt x 30.705pt.
+
+<figs/PLOT.png, id=44, 937.70325pt x 145.7445pt>
+File: figs/PLOT.png Graphic file (type png)
+ <use figs/PLOT.png>
+Package pdftex.def Info: figs/PLOT.png used on input line 186.
+(pdftex.def)             Requested size: 346.89731pt x 53.91794pt.
+ [6 <./figs/CLUSTER.png> <./figs/REGRESS.png> <./figs/SAVE_LOAD.png>]
+<figs/architecture.png, id=51, 868.4445pt x 463.7325pt>
+File: figs/architecture.png Graphic file (type png)
+
+<use figs/architecture.png>
+Package pdftex.def Info: figs/architecture.png used on input line 198.
+(pdftex.def)             Requested size: 260.17464pt x 138.92268pt.
+ <figs/connector.png, id=52, 963.6pt x 542.025pt>
+File: figs/connector.png Graphic file (type png)
+
+<use figs/connector.png>
+Package pdftex.def Info: figs/connector.png used on input line 209.
+(pdftex.def)             Requested size: 260.17464pt x 146.3487pt.
+
+<figs/sml-web-site.png, id=53, 1925.1925pt x 670.505pt>
+File: figs/sml-web-site.png Graphic file (type png)
+
+<use figs/sml-web-site.png>
+Package pdftex.def Info: figs/sml-web-site.png used on input line 221.
+(pdftex.def)             Requested size: 260.17464pt x 90.60634pt.
+ [7 <./figs/PLOT.png> <./figs/architecture.png>]
+[8 <./figs/connector.png> <./figs/sml-web-site.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 [][]\OT1/cmr/m/n/9 For a de-tailed doc-u-men-ta-tion de-scrib-ing this code vis
 it: https://github.com/lcdm-
  []
 
-[8 <./figs/sml-web-site.png>]
 <figs/iris_sml.png, id=65, 893.13675pt x 238.491pt>
 File: figs/iris_sml.png Graphic file (type png)
  <use figs/iris_sml.png>
-Package pdftex.def Info: figs/iris_sml.png used on input line 235.
-(pdftex.def)             Requested size: 260.17464pt x 69.47357pt.
+Package pdftex.def Info: figs/iris_sml.png used on input line 236.
+(pdftex.def)             Requested size: 390.25534pt x 104.20854pt.
 
 <figs/iris_manual.png, id=66, 1159.33125pt x 709.65125pt>
 File: figs/iris_manual.png Graphic file (type png)
 
 <use figs/iris_manual.png>
-Package pdftex.def Info: figs/iris_manual.png used on input line 242.
+Package pdftex.def Info: figs/iris_manual.png used on input line 243.
 (pdftex.def)             Requested size: 260.17464pt x 159.25316pt.
 
 <figs/iris_results.png, id=67, 1444.39626pt x 697.60625pt>
 File: figs/iris_results.png Graphic file (type png)
 
 <use figs/iris_results.png>
-Package pdftex.def Info: figs/iris_results.png used on input line 249.
-(pdftex.def)             Requested size: 260.17464pt x 125.64885pt.
+Package pdftex.def Info: figs/iris_results.png used on input line 250.
+(pdftex.def)             Requested size: 429.28616pt x 207.33553pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
 [][]\OT1/cmr/m/n/9 For a de-tailed doc-u-men-ta-tion de-scrib-ing this code vis
 it: https://github.com/lcdm-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
 \OT1/cmr/m/n/9 uiuc/sml/blob/master/dataflows/plot/autompg[]linear[]regression-
 READ-SPLIT-REGRESS-
  []
 
-<figs/autompg_sml.png, id=68, 852.786pt x 246.9225pt>
+[9 <./figs/iris_sml.png>] [10 <./figs/iris_manual.png> <./figs/iris_results.png
+>] <figs/autompg_sml.png, id=77, 852.786pt x 246.9225pt>
 File: figs/autompg_sml.png Graphic file (type png)
 
 <use figs/autompg_sml.png>
-Package pdftex.def Info: figs/autompg_sml.png used on input line 260.
-(pdftex.def)             Requested size: 260.17464pt x 75.33195pt.
+Package pdftex.def Info: figs/autompg_sml.png used on input line 261.
+(pdftex.def)             Requested size: 390.25534pt x 112.99794pt.
 
-<figs/auto-mpg_manual.png, id=69, 1606.0pt x 713.66624pt>
+<figs/auto-mpg_manual.png, id=78, 1606.0pt x 713.66624pt>
 File: figs/auto-mpg_manual.png Graphic file (type png)
 
 <use figs/auto-mpg_manual.png>
-Package pdftex.def Info: figs/auto-mpg_manual.png used on input line 267.
-(pdftex.def)             Requested size: 260.17464pt x 115.61546pt.
+Package pdftex.def Info: figs/auto-mpg_manual.png used on input line 268.
+(pdftex.def)             Requested size: 429.28616pt x 190.76498pt.
 
-<figs/auto-mpg-results.png, id=70, 1591.9475pt x 377.41pt>
+<figs/auto-mpg-results.png, id=79, 1591.9475pt x 377.41pt>
 File: figs/auto-mpg-results.png Graphic file (type png)
 
 <use figs/auto-mpg-results.png>
-Package pdftex.def Info: figs/auto-mpg-results.png used on input line 274.
-(pdftex.def)             Requested size: 260.17464pt x 61.6768pt.
-
-Underfull \vbox (badness 2150) has occurred while \output is active []
-
- [9 <./figs/iris_sml.png> <./figs/iris_manual.png>] [10 <./figs/iris_results.pn
-g> <./figs/autompg_sml.png> <./figs/auto-mpg_manual.png>] (./main.bbl [11 <./fi
-gs/auto-mpg-results.png>]) [12] (./main.aux) ) 
+Package pdftex.def Info: figs/auto-mpg-results.png used on input line 275.
+(pdftex.def)             Requested size: 429.28616pt x 101.7696pt.
+ [11 <./figs/autompg_sml.png> <./figs/auto-mpg_manual.png>] (./main.bbl [12 <./
+figs/auto-mpg-results.png>]) [13] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2542 strings out of 493014
- 34419 string characters out of 6133351
- 98647 words of memory out of 5000000
- 6011 multiletter control sequences out of 15000+600000
+ 2544 strings out of 493014
+ 34447 string characters out of 6133351
+ 100667 words of memory out of 5000000
+ 6013 multiletter control sequences out of 15000+600000
  20263 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,23p,1323b,258s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (12 pages, 2091885 bytes).
+ 38i,14n,23p,1440b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (13 pages, 2121506 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 126 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
