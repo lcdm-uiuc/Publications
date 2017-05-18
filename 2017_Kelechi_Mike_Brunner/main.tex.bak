@@ -2,7 +2,7 @@
 \usepackage{jair, theapa, rawfonts}
 \usepackage{graphicx}  % include figures
 \usepackage{amsmath}  % for centering equations
-\jairheading{?}{YYYY}{1-??}{M/YY}{M/YY}
+\jairheading{?}{2017}{1-??}{5/17}{M/YY}
 \ShortHeadings{Standard Machine Learning Language}
 {Ikegwu, Hao, \& Brunner}
 \firstpageno{1}
@@ -255,7 +255,7 @@ Figure \ref{fig:SML:IrisQuery} shows all of the code required to perform classif
 
 
 \subsubsection{Auto-Mpg Dataset}
-Figure \ref{fig:SML:AutoMPGQuery} shows the SML \(Query\) required to perform regression on the Auto-MPG dataset in Python. In Figure \ref{fig:SML:AutoMPGQuery} we read data from a specified path, the dataset is separated by fixed width spaces and we choose not to provide a header for the dataset.  Next we perform a 80/20 split, replace all occurrences of "?" with the mode of the column. We then perform linear regression using columns 2-8 to predict the 1st label. Lastly, we visualize distributions of our dataset and metrics of our algorithm. Figure \ref{fig:Manual:Auto-MPG} demonstrates what's required to perform the same operations using scikit learn \footnote{For a detailed documentation describing this code visit: https://github.com/lcdm-uiuc/sml/blob/master/dataflows/plot/autompg\_linear\_regression-READ-SPLIT-REGRESS-PLOT.ipynb \l}. The outcome for both process are the same and can be seen in Figure \ref{fig:AutoMPG:Results}.
+Figure \ref{fig:SML:AutoMPGQuery} shows the SML \(Query\) required to perform regression on the Auto-MPG dataset in Python. In Figure \ref{fig:SML:AutoMPGQuery} we read data from a specified path, the dataset is separated by fixed width spaces and we choose not to provide a header for the dataset.  Next we perform a 80/20 split, replace all occurrences of "?" with the mode of the column. We then perform linear regression using columns 2-8 to predict the 1st label. Lastly, we visualize distributions of our dataset and metrics of our algorithm. Figure \ref{fig:Manual:Auto-MPG} demonstrates what's required to perform the same operations using scikit learn \footnote{For a detailed documentation describing this code visit: https://github.com/lcdm-uiuc/sml/blob/master/dataflows/plot/autompg\_linear\_regression-READ-SPLIT-REGRESS-PLOT.ipynb \label{lab:SML:AUTO}}. The outcome for both process are the same and can be seen in Figure \ref{fig:AutoMPG:Results}.
 
 \begin{figure}
 \includegraphics[width=0.9\textwidth]{figs/autompg_sml.png}
@@ -267,7 +267,7 @@ Figure \ref{fig:SML:AutoMPGQuery} shows the SML \(Query\) required to perform re
 \begin{figure}
 \includegraphics[width=0.99\textwidth]{figs/auto-mpg_manual.png}
 \centering
-\caption{This shows the code required to replicate the same actions of the SML \(Query\) in Figure \ref{fig:SML:AutoMPGQuery}. It's important to note that detailed documentation is publicly available in \ref(), the purpose of this figure is to highlight the level of the level of complexity relative to an SML query.}
+\caption{This shows the code required to replicate the same actions of the SML \(Query\) in Figure \ref{fig:SML:AutoMPGQuery}. It's important to note that detailed documentation is publicly available in \textsuperscript{\ref{lab:SML:AUTO}}, the purpose of this figure is to highlight the level of the level of complexity relative to an SML query.}
 \label{fig:Manual:Auto-MPG}
 \end{figure}
 
@@ -279,13 +279,13 @@ Figure \ref{fig:SML:AutoMPGQuery} shows the SML \(Query\) required to perform re
 \end{figure}
 
 \subsection{Discussion}
-For the Iris and Auto-MPG use cases the same libraries were used to perform regression and classification. The amount of work require to perform a task and produce the following results in Figure \ref{fig:AutoMPG:Results} and Figure \ref{fig:IrisResults} significantly decreases when SML is utilized. To construct each of the SML queries less than 10 lines are required however, to implement the same procedures without SML using the same libraries 80+ lines are required. This demonstrates that it simplifies the development process of solving problems with machine learning and opens a realm of possibility to rapidly develop machine learning pipelines which would be an attractive aspect for researchers.
+For the Iris and Auto-MPG use cases the same libraries and programming language were used to perform regression and classification. The amount of work require to perform a task and produce the following results in Figure \ref{fig:AutoMPG:Results} and Figure \ref{fig:IrisResults} significantly decreases when SML is utilized. To construct each SML query required less than 10 lines of code however, implementing the same procedures without SML using the same programming language and libraries 80+ lines are required. This demonstrates that SML simplifies the development process of solving problems with machine learning and opens a realm of possibility to rapidly develop machine learning pipelines which would be an attractive aspect for researchers.
 
 \section{Conclusion}
 \label{conclusion}
-To summarize we introduced an agnostic framework that integrates a query-like language to simplify the development of machine learning pipelines. We provided a high level overview of it's architecture and grammar. We then applied SML to machine learning problems and demonstrated how the complexity of the code one has to write significantly decreases when SML is used. The source code and detailed documentation for SML is open sourced and publicly available on github \footnote{https://github.com/lcdm-uiuc/sml \label{SML:Github}}. In the future we plan to extend the connector to support more machine learning libraries and additional languages. We plan to expand the web application to make SML easier to use.
+To summarize we introduced an agnostic framework that integrates a query-like language to simplify the development of machine learning pipelines. We provided a high level overview of it's architecture and grammar. We then applied SML to machine learning problems and demonstrated how the complexity of the code one has to write significantly decreases when SML is used. The source code and detailed documentation for SML is open sourced and publicly available on github \footnote{https://github.com/lcdm-uiuc/sml \label{SML:Github}}. In the future we plan to extend the connector to support more machine learning libraries and additional languages. We plan to expand the web application to make SML easier to use for a lament user.
 
-If we want to researchers from other domain areas to utilize machine learning without understanding the complexities required for machine learning a tool like SML is needed. The concepts presented in this paper as a whole is sound. The details may change but the core principals will remain the same. Abstracting the complexities of machine learning from users are needed to increase the use of machine learning by researchers in different disciplines.
+If we want to researchers from other domain areas to utilize machine learning without understanding the complexities required for machine learning a tool like SML is needed. The concepts presented in this paper as a whole is sound. The details may change but the core principals will remain the same. Abstracting the complexities of machine learning from usersis appealing because this will increase the use of machine learning by researchers in different disciplines.
 
 
 %\acks{acknowledgments go here}
