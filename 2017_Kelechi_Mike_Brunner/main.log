@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 MAY 2017 22:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 MAY 2017 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -136,6 +136,39 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count100
+\lst@gtempboxa=\box28
+\lst@token=\toks20
+\lst@length=\count101
+\lst@currlwidth=\dimen114
+\lst@column=\count102
+\lst@pos=\count103
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count104
+\lst@lineno=\count105
+\lst@maxwidth=\dimen117
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count106
+\lst@skipnumbers=\count107
+\lst@framebox=\box29
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+)
 
 LaTeX Warning: Unused global option(s):
     [jair,theapa].
@@ -143,32 +176,32 @@ LaTeX Warning: Unused global option(s):
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen114
-\scratchbox=\box28
-\nofMPsegments=\count101
-\nofMParguments=\count102
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen115
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count108
+\scratchdimen=\dimen118
+\scratchbox=\box30
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen119
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -216,20 +249,21 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
+\c@lstlisting=\count114
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 65.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
  [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 <figs/sml-ex-1.png, id=13, 941.31676pt x 129.48375pt>
 File: figs/sml-ex-1.png Graphic file (type png)
  <use figs/sml-ex-1.png>
-Package pdftex.def Info: figs/sml-ex-1.png used on input line 44.
+Package pdftex.def Info: figs/sml-ex-1.png used on input line 67.
 (pdftex.def)             Requested size: 346.89731pt x 47.71657pt.
 
 Underfull \vbox (badness 4391) has occurred while \output is active []
@@ -383,19 +417,19 @@ Missing character: There is no ù in font cmr10!
 File: figs/bnf_ex.png Graphic file (type png)
 
 <use figs/bnf_ex.png>
-Package pdftex.def Info: figs/bnf_ex.png used on input line 103.
+Package pdftex.def Info: figs/bnf_ex.png used on input line 126.
 (pdftex.def)             Requested size: 260.17464pt x 69.05475pt.
  [3] <figs/READ.png, id=26, 844.3545pt x 70.46326pt>
 File: figs/READ.png Graphic file (type png)
 
 <use figs/READ.png>
-Package pdftex.def Info: figs/READ.png used on input line 116.
+Package pdftex.def Info: figs/READ.png used on input line 139.
 (pdftex.def)             Requested size: 346.89731pt x 28.94925pt.
  <figs/REPLACE.png, id=27, 935.29425pt x 68.6565pt>
 File: figs/REPLACE.png Graphic file (type png)
 
 <use figs/REPLACE.png>
-Package pdftex.def Info: figs/REPLACE.png used on input line 126.
+Package pdftex.def Info: figs/REPLACE.png used on input line 149.
 (pdftex.def)             Requested size: 346.89731pt x 25.4643pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -404,62 +438,62 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <figs/SPLIT.png, id=33, 880.4895pt x 61.4295pt>
 File: figs/SPLIT.png Graphic file (type png)
  <use figs/SPLIT.png>
-Package pdftex.def Info: figs/SPLIT.png used on input line 136.
+Package pdftex.def Info: figs/SPLIT.png used on input line 159.
 (pdftex.def)             Requested size: 346.89731pt x 24.20204pt.
 
 <figs/CLASSIFY.png, id=34, 941.31676pt x 109.6095pt>
 File: figs/CLASSIFY.png Graphic file (type png)
  <use figs/CLASSIFY.png>
-Package pdftex.def Info: figs/CLASSIFY.png used on input line 146.
+Package pdftex.def Info: figs/CLASSIFY.png used on input line 169.
 (pdftex.def)             Requested size: 346.89731pt x 40.39262pt.
 
 <figs/CLUSTER.png, id=35, 934.692pt x 112.62074pt>
 File: figs/CLUSTER.png Graphic file (type png)
  <use figs/CLUSTER.png>
-Package pdftex.def Info: figs/CLUSTER.png used on input line 156.
+Package pdftex.def Info: figs/CLUSTER.png used on input line 179.
 (pdftex.def)             Requested size: 346.89731pt x 41.79617pt.
 
 <figs/REGRESS.png, id=36, 936.49875pt x 148.1535pt>
 File: figs/REGRESS.png Graphic file (type png)
  <use figs/REGRESS.png>
-Package pdftex.def Info: figs/REGRESS.png used on input line 166.
+Package pdftex.def Info: figs/REGRESS.png used on input line 189.
 (pdftex.def)             Requested size: 346.89731pt x 54.87923pt.
 
 [5 <./figs/REPLACE.png> <./figs/SPLIT.png> <./figs/CLASSIFY.png>]
 <figs/SAVE_LOAD.png, id=43, 445.665pt x 78.89474pt>
 File: figs/SAVE_LOAD.png Graphic file (type png)
  <use figs/SAVE_LOAD.png>
-Package pdftex.def Info: figs/SAVE_LOAD.png used on input line 176.
+Package pdftex.def Info: figs/SAVE_LOAD.png used on input line 199.
 (pdftex.def)             Requested size: 173.44534pt x 30.705pt.
 
 <figs/PLOT.png, id=44, 937.70325pt x 145.7445pt>
 File: figs/PLOT.png Graphic file (type png)
  <use figs/PLOT.png>
-Package pdftex.def Info: figs/PLOT.png used on input line 186.
+Package pdftex.def Info: figs/PLOT.png used on input line 209.
 (pdftex.def)             Requested size: 346.89731pt x 53.91794pt.
  [6 <./figs/CLUSTER.png> <./figs/REGRESS.png> <./figs/SAVE_LOAD.png>]
 <figs/architecture.png, id=51, 868.4445pt x 463.7325pt>
 File: figs/architecture.png Graphic file (type png)
 
 <use figs/architecture.png>
-Package pdftex.def Info: figs/architecture.png used on input line 198.
+Package pdftex.def Info: figs/architecture.png used on input line 221.
 (pdftex.def)             Requested size: 260.17464pt x 138.92268pt.
  <figs/connector.png, id=52, 963.6pt x 542.025pt>
 File: figs/connector.png Graphic file (type png)
 
 <use figs/connector.png>
-Package pdftex.def Info: figs/connector.png used on input line 209.
+Package pdftex.def Info: figs/connector.png used on input line 232.
 (pdftex.def)             Requested size: 260.17464pt x 146.3487pt.
 
 <figs/sml-web-site.png, id=53, 1925.1925pt x 670.505pt>
 File: figs/sml-web-site.png Graphic file (type png)
 
 <use figs/sml-web-site.png>
-Package pdftex.def Info: figs/sml-web-site.png used on input line 221.
+Package pdftex.def Info: figs/sml-web-site.png used on input line 244.
 (pdftex.def)             Requested size: 260.17464pt x 90.60634pt.
  [7 <./figs/PLOT.png> <./figs/architecture.png>]
 [8 <./figs/connector.png> <./figs/sml-web-site.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
 [][]\OT1/cmr/m/n/9 For a de-tailed doc-u-men-ta-tion de-scrib-ing this code vis
 it: https://github.com/lcdm-
  []
@@ -467,79 +501,97 @@ it: https://github.com/lcdm-
 <figs/iris_sml.png, id=65, 893.13675pt x 238.491pt>
 File: figs/iris_sml.png Graphic file (type png)
  <use figs/iris_sml.png>
-Package pdftex.def Info: figs/iris_sml.png used on input line 236.
+Package pdftex.def Info: figs/iris_sml.png used on input line 259.
 (pdftex.def)             Requested size: 390.25534pt x 104.20854pt.
 
-<figs/iris_manual.png, id=66, 867.24pt x 867.24pt>
-File: figs/iris_manual.png Graphic file (type png)
- <use figs/iris_manual.png>
-Package pdftex.def Info: figs/iris_manual.png used on input line 243.
-(pdftex.def)             Requested size: 260.17464pt x 260.17401pt.
-
-<figs/iris_results.png, id=67, 1444.39626pt x 697.60625pt>
+<figs/iris_results.png, id=66, 1444.39626pt x 697.60625pt>
 File: figs/iris_results.png Graphic file (type png)
 
 <use figs/iris_results.png>
-Package pdftex.def Info: figs/iris_results.png used on input line 250.
+Package pdftex.def Info: figs/iris_results.png used on input line 268.
 (pdftex.def)             Requested size: 429.28616pt x 207.33553pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+
+LaTeX Warning: Reference `fig:Manual:IrisCode' on page 9 undefined on input lin
+e 270.
+
+
+LaTeX Warning: Reference `fig:Manual:IrisCode' on page 9 undefined on input lin
+e 270.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
 [][]\OT1/cmr/m/n/9 For a de-tailed doc-u-men-ta-tion de-scrib-ing this code vis
 it: https://github.com/lcdm-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
 \OT1/cmr/m/n/9 uiuc/sml/blob/master/dataflows/plot/autompg[]linear[]regression-
 READ-SPLIT-REGRESS-
  []
 
-[9 <./figs/iris_sml.png>] [10 <./figs/iris_manual.png> <./figs/iris_results.png
->] <figs/autompg_sml.png, id=77, 852.786pt x 246.9225pt>
+[9 <./figs/iris_sml.png>]
+<figs/autompg_sml.png, id=71, 852.786pt x 246.9225pt>
 File: figs/autompg_sml.png Graphic file (type png)
 
 <use figs/autompg_sml.png>
-Package pdftex.def Info: figs/autompg_sml.png used on input line 261.
+Package pdftex.def Info: figs/autompg_sml.png used on input line 279.
 (pdftex.def)             Requested size: 390.25534pt x 112.99794pt.
 
-<figs/auto-mpg_manual.png, id=78, 1606.0pt x 713.66624pt>
-File: figs/auto-mpg_manual.png Graphic file (type png)
-
-<use figs/auto-mpg_manual.png>
-Package pdftex.def Info: figs/auto-mpg_manual.png used on input line 268.
-(pdftex.def)             Requested size: 429.28616pt x 190.76498pt.
-
-<figs/auto-mpg-results.png, id=79, 971.63pt x 561.09625pt>
+<figs/auto-mpg-results.png, id=72, 971.63pt x 561.09625pt>
 File: figs/auto-mpg-results.png Graphic file (type png)
 
 <use figs/auto-mpg-results.png>
-Package pdftex.def Info: figs/auto-mpg-results.png used on input line 275.
+Package pdftex.def Info: figs/auto-mpg-results.png used on input line 286.
 (pdftex.def)             Requested size: 429.28616pt x 247.90195pt.
- [11 <./figs/autompg_sml.png> <./figs/auto-mpg_manual.png>] [12 <./figs/auto-mp
-g-results.png>] (./main.bbl) [13] (./main.aux) ) 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./figs/iris_results.png> <./figs/autompg_sml.png>] [11 <./figs/auto-mpg-r
+esults.png>] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.st
+y
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) [12]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 332.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+(./main.bbl) [16] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2544 strings out of 493014
- 34447 string characters out of 6133351
- 100668 words of memory out of 5000000
- 6013 multiletter control sequences out of 15000+600000
- 20263 words of font info for 77 fonts, out of 8000000 for 9000
+ 4093 strings out of 493014
+ 56388 string characters out of 6133351
+ 384040 words of memory out of 5000000
+ 7543 multiletter control sequences out of 15000+600000
+ 20715 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,23p,1440b,258s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (13 pages, 2093740 bytes).
+ 38i,14n,42p,1450b,1726s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (16 pages, 1510197 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

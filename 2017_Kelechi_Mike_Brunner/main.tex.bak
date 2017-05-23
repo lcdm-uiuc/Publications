@@ -2,6 +2,29 @@
 \usepackage{jair, theapa, rawfonts}
 \usepackage{graphicx}  % include figures
 \usepackage{amsmath}  % for centering equations
+
+\usepackage{listings} % code in snippets
+\usepackage{color} % color syntax
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color
+  basicstyle=\footnotesize,        % size of fonts used for the code
+ frame=single,	   
+  breaklines=true,                 % automatic line breaking only at whitespace
+    numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,
+  numberstyle=\tiny\color{mygray},
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  keywordstyle=\color{blue},       % keyword style
+  stringstyle=\color{mymauve},     % string literal style
+}
+
 \jairheading{59}{2017}{?-??}{5/17}{M/YY}
 \ShortHeadings{Standard Machine Learning Language}
 {Ikegwu, Hao, \& Brunner}
@@ -12,16 +35,16 @@
 \title{Standard Machine Learning Language: A Language Agnostic Framework for Streamlining the Development of Machine Learning Pipelines}
 
 \author{\name Kelechi Ikegwu \email ikegwu2@illinois.edu \\
-       \addr Illinois Infomatics Institute \\ University of Illinois at Urbana Champaign
+       \addr Illinois Informatics Institute \\ The University of Illinois at Urbana-Champaign
        \AND
        \name Micheal Hao  \email mxhao2@illinois.edu \\
-       \addr Department of Electrical and Computer Engineering \\ University of Illinois at Urbana Champaign
+       \addr Department of Electrical and Computer Engineering \\ The University of Illinois at Urbana-Champaign
        \AND
        \name Neeraj Asthana \email neeasthana@gmail.com \\
-       \addr Department of Computer Science \\ Department of Statistics \\ University of Illinois at Urbana Champaign 
+       \addr Department of Computer Science \\ Department of Statistics \\ The University of Illinois at Urbana-Champaign
        \AND
        \name Robert Brunner \email bigdog@illinois.edu\\
-       \addr Department of Accountancy \\  Department of Computer Science \\ Illinois Infomatics Institute \\  School of Information Sciences \\ Department of Statistics \\  University of Illinois at Urbana Champaign}
+       \addr Department of Accountancy \\  Department of Computer Science \\ Illinois Informatics Institute \\  School of Information Sciences \\ Department of Statistics \\  The University of Illinois at Urbana-Champaign}
 
 % For research notes, remove the comment character in the line below.
 % \researchnote
@@ -30,13 +53,13 @@
 
 
 \begin{abstract}
-Standard Machine Learning Language (SML) is a language agnostic framework that integrates a query-like language to simplify the development of machine learning pipelines. Emphasis was placed on ease of use and abstracting the complexities of machine learning from the end user encouraging it's use in professional and academic settings for a variety of disciplines. SML's architecture is discussed, followed by multiple interfaces that one could use to interact with SML. Lastly, SML is applied to a few problems and the  complexities of SML query's and traditional approaches used to solve problems are compared and discussed.
+Standard Machine Learning Language (SML) is a language agnostic framework that integrates a query-like language to simplify the development of machine learning pipelines. Emphasis was placed on ease of use and abstracting the complexities of machine learning from the end user encouraging its use in professional and academic settings for a variety of disciplines. SML's architecture is discussed, followed by multiple interfaces that one could use to interact with SML. Lastly, SML is applied to a few problems, and the  complexities of SML query's and traditional approaches used to solve problems are compared and discussed.
 \end{abstract}
 
 \section{Introduction}
 \label{Introduction}
 
-Machine Learning has simplified the process of solving a vast amount problems in a variety of fields by learning from data. In most cases machine learning has become more attractive than manually creating programs to solve these same issues. However there's a multitude of nuisances involved when developing machine learning pipelines \cite{pedros:fewUsefulThings}. If these nuisances are not taken into consideration one may not receive satisfactory results. A domain expert utilizing machine learning to solve problems may not want or have the time to deal with these complexities. To combat these issues we introduce Standard Machine Learning Language (SML).
+Machine Learning has simplified the process of solving a vast amount problems in a variety of fields by learning from data. In most cases, machine learning has become more attractive than manually creating programs to address these same issues. However there's a multitude of nuisances involved when developing machine learning pipelines \cite{pedros:fewUsefulThings}. If these nuisances are not taken into consideration one may not receive satisfactory results. A domain expert utilizing machine learning to solve problems may not want or have the time to deal with these complexities. To combat these issues we introduce Standard Machine Learning Language (SML).
 
 The overall objective of the SML is to provide a level of abstraction which simplifies the development process of machine learning pipelines. Consequently this enables students, researchers, and industry professionals without a background in machine learning to solve problems in different domains with machine learning. We developed SML a query like language which serves as an abstraction from writing a lot of code (see Figure \ref{fig:sml-ex-1} for an example). In the subsequent sections related works are discussed followed by defining the grammar used to create queries for SML. The architecture of SML is described, lastly SML is applied to use-cases to demonstrate how it reduces the complexity of solving problems that utilize machine learning.
 
@@ -107,7 +130,7 @@ To put the grammar into perspective the example \(Query\) in Figure \ref{fig:sml
 \end{figure}
 
 \subsection{Keywords}
-Currently they're 8 \(Keyword\)s in SML \footnote{Detailed documentation providing examples and describing all of the keywords of SML are publicly available on github: https://github.com/lcdm-uiuc/sml/tree/master/dataflows \label{SML:Dataflow}}. These \(Keyword\)s can be chained together to perform a variety of actions. In the subsequent subsections we describe the functionality of each \(Keyword\).
+Currently there are 8 \(Keyword\)s in SML \footnote{Detailed documentation providing examples and describing all of the keywords of SML are publicly available on github: https://github.com/lcdm-uiuc/sml/tree/master/dataflows \label{SML:Dataflow}}. These \(Keyword\)s can be chained together to perform a variety of actions. In the subsequent subsections we describe the functionality of each \(Keyword\).
 
 \subsubsection{Reading Datasets}
 When reading data from SML one must use the \(READ\) \(Keyword\) followed by an \(Argument\) containing a path to the dataset. \(READ\) also accepts a variety of \(Option\)s. The first \(Query\) in Figure \ref{fig:SML:READ} consist of only a \(Keyword\) and \(Argument\). This \(Query\) reads in data from "/path/to/dataset". The second \(Query\) includes an \(OptionValueList\) in addition to reading data from the specified path; the \(OptionValueList\) specifies that the dataset is delimited with semicolons and does not include a header row. 
@@ -201,7 +224,7 @@ With SML's grammar defined enough information has been presented to dive into SM
 \label{fig:SML:Architecture}
 \end{figure}
 
-The model phase is generally for constructing a model. The \(Keyword\)s that generally invoke the model phase are: \(READ\), \(REPLACE\), \(CLASSIFY\), \(REGRESS\), \(CLUSTER\), and \(SAVE\). The apply phase is generally for applying a preexisting model  to new data. The \(Keyword\) that generally invoke the apply phase is \(LOAD\). It's often useful to visualize the data that one works with and beneficial to see performance metrics of a machine learning model. By default if you specify the \(PLOT\) \(Keyword\) in a \(Query\), SML will execute the metrics phase.
+The model phase is generally for constructing a model. The \(Keyword\)s that generally invoke the model phase are: \(READ\), \(REPLACE\), \(CLASSIFY\), \(REGRESS\), \(CLUSTER\), and \(SAVE\). The apply phase is generally for applying a preexisting model  to new data. The \(Keyword\) that generally invokes the apply phase is \(LOAD\). It's often useful to visualize the data that one works with and beneficial to see performance metrics of a machine learning model. By default if you specify the \(PLOT\) \(Keyword\) in a \(Query\), SML will execute the metrics phase.
 
 The last significant component of SML's architecture is the connector. The connector connects drivers from different libraries and languages to achieve an action a user wants during a particular phase (see Figure \ref{fig:SML:Connector}). If one considers applying linear regression on a dataset, during the model phase SML calls the connector to retrieve the linear regression library in this case SML uses sci-kit learn's implementation however, if we wanted to use an algorithm not available in sci-kit learn such as a Hidden Markov Model (HMM) SML will use the connector to call another library that supports HMM.
 
@@ -227,10 +250,10 @@ They're multiple interfaces available for working with SML. We've developed a we
 \section{Use Cases}
 \label{use-cases}
 
-We tested SML's framework against ten popular machine learning problems with publicly available data sets. We applied SML to the following datasets: Iris Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/Iris}, Auto-MPG Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/Auto+MPG}, Seeds Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/seeds}, Computer Hardware Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/Computer+Hardware}, Boston Housing Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/Housing}, Wine Recognition Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/Wine}, US Census Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/US+Census+Data+(1990)}, Chronic Kidney Disease \footnote{https://archive.ics.uci.edu/ml/datasets/Chronic\_Kidney\_Disease}, Spam Detection \footnote{https://archive.ics.uci.edu/ml/datasets/Spambase} which were taken from UCI's Machine Learning Repository \cite{Lichman:2013}. We also applied SML to the Titanic Dataset \footnote{https://www.kaggle.com/c/titanic}. In this paper we discuss in detail the process of applying SML to the Iris Dataset and the Auto-MPG dataset. \footnote{Footnote \ref{SML:Dataflow} provides detailed explanations and examples that solve problems all 10 data sets}. For both of these cases we used the same libraries and programming language in SML and for writing code to solve this.
+We tested SML's framework against ten popular machine learning problems with publicly available data sets. We applied SML to the following datasets: Iris Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/Iris}, Auto-MPG Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/Auto+MPG}, Seeds Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/seeds}, Computer Hardware Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/Computer+Hardware}, Boston Housing Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/Housing}, Wine Recognition Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/Wine}, US Census Dataset \footnote{https://archive.ics.uci.edu/ml/datasets/US+Census+Data+(1990)}, Chronic Kidney Disease \footnote{https://archive.ics.uci.edu/ml/datasets/Chronic\_Kidney\_Disease}, Spam Detection \footnote{https://archive.ics.uci.edu/ml/datasets/Spambase} which were taken from UCI's Machine Learning Repository \cite{Lichman:2013}. We also applied SML to the Titanic Dataset \footnote{https://www.kaggle.com/c/titanic}. In this paper we discuss in detail the process of applying SML to the Iris Dataset and the Auto-MPG dataset \footnote{Footnote \ref{SML:Dataflow} provides detailed explanations and examples that solve problems all 10 data sets}. For both of these cases we used the same libraries and programming language in SML and for writing code to solve these use cases.
 
 \subsubsection{Iris Dataset}
-Figure \ref{fig:SML:IrisQuery} shows all of the code required to perform classification on the Iris dataset using SML in Python. In Figure \ref{fig:SML:IrisQuery} data is read in from a specified path of a file called "iris.csv" of a subdirectory called "data" in the parent directory, perform a 80/20 split, use the first 4 columns to predict the 5th column, use support vector machines as the algorithm to perform classification and finally plot distributions of our dataset  and metrics of our algorithm. Figure \ref{fig:Manual:IrisCode} illustrates what is required to perform the same operations using Python and a popular machine learning library scikit learn. The \(Query\) in Figure \ref{fig:SML:IrisQuery} and Figure \ref{fig:Manual:IrisCode} use the same 3rd party libraries implicitly or explicitly. It's worth noting that the code in Figure \ref{fig:Manual:IrisCode} is publicly available and well documented \footnote{For a detailed documentation describing this code visit: https://github.com/lcdm-uiuc/sml/blob/master/dataflows/plot/iris\_svm-READ-SPLIT-CLASSIFY-PLOT.ipynb \label{lab:iris:git}} and it is out of the scope of this paper. Instead the complexities required to produce such results with and without SML are outlined. The result for both snippets of code are the same and can be seen in Figure \ref{fig:IrisResults}.
+Figure \ref{fig:SML:IrisQuery} shows all of the code required to perform classification on the Iris dataset using SML in Python. In Figure \ref{fig:SML:IrisQuery} data is read in from a specified path of a file called "iris.csv" of a subdirectory called "data" in the parent directory, performs a 80/20 split, uses the first 4 columns to predict the 5th column, uses support vector machines as the algorithm to perform classification and finally plot distributions of our dataset  and metrics of our algorithm. Appendix A illustrates what is required to perform the same operations using Python and a popular machine learning library scikit learn. The \(Query\) in Figure \ref{fig:SML:IrisQuery} and the code in Appendix A use the same 3rd party libraries implicitly or explicitly. It's also worth noting that the code in Appendix A is publicly available and well documented \footnote{For a detailed documentation describing this code visit: https://github.com/lcdm-uiuc/sml/blob/master/dataflows/plot/iris\_svm-READ-SPLIT-CLASSIFY-PLOT.ipynb \label{lab:iris:git}} and it is out of the scope of this paper. Instead the complexities required to produce such results with and without SML are outlined. The result for both snippets of code are the same and can be seen in Figure \ref{fig:IrisResults}.
 
 \begin{figure}
 \includegraphics[width=0.9\textwidth]{figs/iris_sml.png}
@@ -239,12 +262,7 @@ Figure \ref{fig:SML:IrisQuery} shows all of the code required to perform classif
 \label{fig:SML:IrisQuery}
 \end{figure}
 
-\begin{figure}
-\includegraphics[width=0.6\textwidth]{figs/iris_manual.png}
-\centering
-\caption{This shows the code required to replicate the same actions of the SML \(Query\) in Figure \ref{fig:SML:IrisQuery}. }
-\label{fig:Manual:IrisCode}
-\end{figure}
+
 
 \begin{figure}
 \includegraphics[width=0.99\textwidth]{figs/iris_results.png}
@@ -255,7 +273,7 @@ Figure \ref{fig:SML:IrisQuery} shows all of the code required to perform classif
 
 
 \subsubsection{Auto-Mpg Dataset}
-Figure \ref{fig:SML:AutoMPGQuery} shows the SML \(Query\) required to perform regression on the Auto-MPG dataset in Python. In Figure \ref{fig:SML:AutoMPGQuery} we read data from a specified path, the dataset is separated by fixed width spaces and we choose not to provide a header for the dataset.  Next we perform a 80/20 split, replace all occurrences of "?" with the mode of the column. We then perform linear regression using columns 2-8 to predict the 1st label. Lastly, we visualize distributions of our dataset and metrics of our algorithm. Figure \ref{fig:Manual:Auto-MPG} demonstrates what's required to perform the same operations using scikit learn \footnote{For a detailed documentation describing this code visit: https://github.com/lcdm-uiuc/sml/blob/master/dataflows/plot/autompg\_linear\_regression-READ-SPLIT-REGRESS-PLOT.ipynb \label{lab:SML:AUTO}}. The outcome for both process are the same and can be seen in Figure \ref{fig:AutoMPG:Results}.
+Figure \ref{fig:SML:AutoMPGQuery} shows the SML \(Query\) required to perform regression on the Auto-MPG dataset in Python. In Figure \ref{fig:SML:AutoMPGQuery} we read data from a specified path, the dataset is separated by fixed width spaces and we choose not to provide a header for the dataset.  Next we perform a 80/20 split, replace all occurrences of "?" with the mode of the column. We then perform linear regression using columns 2-8 to predict the 1st label. Lastly, we visualize distributions of our dataset and metrics of our algorithm. Appendix B. demonstrates what's required to perform the same operations using scikit learn \footnote{For a detailed documentation describing this code visit: https://github.com/lcdm-uiuc/sml/blob/master/dataflows/plot/autompg\_linear\_regression-READ-SPLIT-REGRESS-PLOT.ipynb \label{lab:SML:AUTO}}. The outcome of both processes are the same and can be seen in Figure \ref{fig:AutoMPG:Results}.
 
 \begin{figure}
 \includegraphics[width=0.9\textwidth]{figs/autompg_sml.png}
@@ -265,34 +283,206 @@ Figure \ref{fig:SML:AutoMPGQuery} shows the SML \(Query\) required to perform re
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=0.99\textwidth]{figs/auto-mpg_manual.png}
-\centering
-\caption{This shows the code required to replicate the same actions of the SML \(Query\) in Figure \ref{fig:SML:AutoMPGQuery}. It's important to note that detailed documentation is publicly available in \textsuperscript{\ref{lab:SML:AUTO}}, the purpose of this figure is to highlight the level of the level of complexity relative to an SML query.}
-\label{fig:Manual:Auto-MPG}
-\end{figure}
-
-\begin{figure}
 \includegraphics[width=0.99\textwidth]{figs/auto-mpg-results.png}
 \centering
-\caption{The SML \(Query\) in Figure \ref{fig:SML:AutoMPGQuery}  and the code in Figure \ref{fig:Manual:Auto-MPG} produce these results. The subgraph on the left is a lattice plot showing the density estimates of each feature used. The the top right graph shows the learning curve of the model and the graph on lower right shows the validation curve.}
+\caption{The SML \(Query\) in Figure \ref{fig:SML:AutoMPGQuery}  and the code in Appendix B. produce these results. The subgraph on the left is a lattice plot showing the density estimates of each feature used. The top right graph shows the learning curve of the model and the graph on lower right shows the validation curve.}
 \label{fig:AutoMPG:Results}
 \end{figure}
 
 \subsection{Discussion}
-For the Iris and Auto-MPG use cases the same libraries and programming language were used to perform regression and classification. The amount of work require to perform a task and produce the following results in Figure \ref{fig:AutoMPG:Results} and Figure \ref{fig:IrisResults} significantly decreases when SML is utilized. To construct each SML query required less than 10 lines of code however, implementing the same procedures without SML using the same programming language and libraries 80+ lines are required. This demonstrates that SML simplifies the development process of solving problems with machine learning and opens a realm of possibility to rapidly develop machine learning pipelines which would be an attractive aspect for researchers.
+For the Iris and Auto-MPG use cases the same libraries and programming language were used to perform regression and classification. The amount of work required to perform a task and produce the following results in Figure \ref{fig:AutoMPG:Results} and Figure \ref{fig:IrisResults} significantly decreases when SML is utilized. Constructing each SML query used less than 10 lines of code however, implementing the same procedures without SML using the same programming language and libraries needed 70+ lines of code. This demonstrates that SML simplifies the development process of solving problems with machine learning and opens a realm of possibility to rapidly develop machine learning pipelines which would be an attractive aspect for researchers.
 
 \section{Conclusion}
 \label{conclusion}
 To summarize we introduced an agnostic framework that integrates a query-like language to simplify the development of machine learning pipelines. We provided a high level overview of it's architecture and grammar. We then applied SML to machine learning problems and demonstrated how the complexity of the code one has to write significantly decreases when SML is used. The source code and detailed documentation for SML is open sourced and publicly available on github \footnote{https://github.com/lcdm-uiuc/sml \label{SML:Github}}. In the future we plan to extend the connector to support more machine learning libraries and additional languages. We plan to expand the web application to make SML easier to use for a lament user.
 
-If we want to researchers from other domain areas to utilize machine learning without understanding the complexities required for machine learning a tool like SML is needed. The concepts presented in this paper as a whole is sound. The details may change but the core principals will remain the same. Abstracting the complexities of machine learning from usersis appealing because this will increase the use of machine learning by researchers in different disciplines.
+If we want researchers from other domain areas to utilize machine learning without understanding the complexities required for machine learning a tool like SML is needed. The concepts presented in this paper as a whole is sound. The details may change but the core principals will remain the same. Abstracting the complexities of machine learning from users is appealing because this will increase the use of machine learning by researchers in different disciplines.
 
 
 \acks{We acknowledge support from the National Science Foundation Grant No. AST-1313415. RJB acknowledges support as an Associate within the Center for Advanced Study at the University of Illinois.}
 
-%\appendix
-%\section*{Appendix X...}
-%Appendix goes here if needed.
+\appendix
+\section*{Appendix A. Iris Python Code}
+This shows the code required to replicate the same actions of the SML \(Query\) in Figure \ref{fig:SML:IrisQuery}. It's important to note that detailed documentation is publicly available in \textsuperscript{\ref{lab:iris:git}}, the purpose of this figure is to highlight the level of complexity relative to a SML query.
+
+\begin{lstlisting}[language=python]
+import pandas as pd
+import numpy as np
+
+from sklearn.preprocessing import label_binarize
+import sklearn.cross_validation as cv
+from sklearn.multiclass import OneVsRestClassifier
+from sklearn.svm import SVC
+from sklearn.metrics import roc_curve, auc
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+names = ['sepal length(cm)', 'sepal width(cm)', 'petal length(cm)', 'petal width(cm)', 'species']
+data = pd.read_csv('../data/iris.csv', names=names)
+
+iris_classes = ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']
+features = np.c_[data.drop('species',1).values]
+labels = label_binarize(data['species'], classes=iris_classes)
+n_classes = labels.shape[1]
+
+x_train, x_test, y_train, y_test = cv.train_test_split(features, labels, test_size=0.25)
+svm = OneVsRestClassifier(SVC(kernel='linear', probability=True))
+l = svm.fit(x_train, y_train)
+predict_score = model.decision_function(x_test)
+test_set_results = model.score(x_test, y_test) * 100
+print ('SVM Prediction Accuracy = {0:6.2f}%'.format(test_set_results) )
+ fpr = dict()
+tpr = dict()
+roc_auc = dict()
+
+for i in range(n_classes):
+fpr[i], tpr[i], _ = roc_curve(y_test[:, i], predict_score[:, i])
+roc_auc[i] = auc(fpr[i], tpr[i])
+plt.rcParams['figure.figsize']=(12,12)
+# Class Info
+columns = [0,1,2,3]
+cmap_class = ['Purples_r', 'Greens_r', 'Oranges_r', 'Greys_r' ]
+color_class1D = ['purple', 'darkgreen', 'orange', 'grey']
+column_headers =  data.columns.values.tolist() # Grab headers from df
+column_headers = [column_headers[x] for x in columns] # Map headers to indices selected
+
+label = 'species'
+fig, ax = plt.subplots(len(columns), len(columns))
+for ic, cc, cc1D in zip(iris_classes, cmap_class, color_class1D): 
+  iris_class_data = data.loc[data.species == ic] # sep class
+   
+  #Generate kde plot matrix for class
+  for col1, i in enumerate(columns):
+      for col2, j in enumerate(columns):
+          if i == j:
+              sns.kdeplot(iris_class_data[iris_class_data.columns[col1]], ax=ax[col1][col2], color=cc1D, shade=True, legend=False)
+          else:
+              sns.kdeplot( iris_class_data[iris_class_data.columns[col1]], iris_class_data[iris_class_data.columns[col2]], ax=ax[col1][col2], cmap=cc)    
+          # Formatting
+          if j == 0:
+              ax[i,j].set_xticklabels([])
+              ax[i,j].set_ylabel(column_headers[i])
+              ax[i,j].set_xlabel('')
+              if i == len(columns)-1:
+                  ax[i,j].set_xlabel(column_headers[j])
+          elif i == len(columns)-1:
+              ax[i,j].tick_params(axis='y', which='major', bottom='off')
+              ax[i,j].set_yticklabels([])
+              ax[i,j].set_xlabel(column_headers[j])
+              ax[i,j].set_ylabel('')                
+          else:
+              ax[i,j].set_xticklabels([])
+              ax[i,j].set_xlabel('')
+              
+              ax[i,j].set_yticklabels([])
+              ax[i,j].set_ylabel('')
+  
+plt.show()
+plt.close()
+\end{lstlisting}
+
+\section*{Appendix B. Auto-MPG Python Code}
+This shows the code required to replicate the same actions of the SML \(Query\) in Figure \ref{fig:SML:AutoMPGQuery}. It's important to note that detailed documentation is publicly available in \textsuperscript{\ref{lab:SML:AUTO}}, the purpose of this figure is to highlight the level of complexity relative to a SML query.
+\begin{lstlisting}[language=python]
+import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
+from sklearn import linear_model
+from sklearn.cross_validation import train_test_split
+from sklearn.learning_curve import learning_curve, validation_curve
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+plt.rcParams['figure.figsize']=(12,12)
+sns.set()
+ 
+names = ['mpg', 'cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_name']
+ 
+#load dataset
+data = pd.read_csv('../data/auto-mpg.csv', sep = '\s+', header = None, names = names)
+data_clean=data.applymap(lambda x: np.nan if x == '?' else x).dropna()
+X = data_clean[['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', "origin"]]
+#Select target column
+y = data_clean['mpg']
+#Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.8, test_size=0.2)
+
+# Define and train  linear regression model
+estimator = linear_model.LinearRegression()# Generate Learning Cures
+train_sizes, train_scores, test_scores = learning_curve(estimator, X_train, y_train) 
+# Train Linear Regression Model
+estimator.fit(X_train, y_train)# Generate Validation Curves
+param_range = np.arange(0, 5)
+
+v_train_scores, v_test_scores = validation_curve(estimator, X_test, y_test, param_name='normalize', param_range=param_range)
+
+score = estimator.score(X_test, y_test)
+print('Accuracy :', score)
+g = sns.PairGrid(data_clean, palette='PuOr_r')
+g = g.map_diag(sns.kdeplot, shade=True) # can't add color arg...
+ 
+g = g.map_upper(sns.kdeplot, cmap='PuOr_r')
+g = g.map_lower(sns.kdeplot, cmap='PuOr_r')
+ 
+plt.show()
+plt.close()
+ 
+color_pal = ['purple', 'dark green', 'orange', 'grey'] # For 1-D KDE
+cmap_pal = ['PuOr_r'] # For 2-D KDE
+classes = [] # May not have a class for categories
+
+column_headers =  data_clean.columns.values.tolist() # Grab headers from df
+column_headers = [column_headers[x] for x in columns] # Map headers to indices selected
+ 
+fig, ax = plt.subplots(len(columns), len(columns))
+if not classes:
+  for col1, i in enumerate(columns):
+      for col2, j in enumerate(columns):
+          if i == j:
+              sns.kdeplot(data_clean[data_clean.columns[col1]], ax=ax[col1][col2], color=color_pal[0], shade=True, legend=False)
+          else:
+              sns.kdeplot( data_clean[data_clean.columns[col1]], data_clean[data_clean.columns[col2]], ax=ax[col1][col2], cmap=cmap_pal[0])
+
+           # Formatting
+           if j == 0:
+               ax[i,j].set_xticklabels([])
+               ax[i,j].set_ylabel(column_headers[i])
+               ax[i,j].set_xlabel('')
+                if i == len(columns)-1:
+                   ax[i,j].set_xlabel(column_headers[j])
+            elif i == len(columns)-1:
+                ax[i,j].tick_params(axis='y', which='major', bottom='off')
+                ax[i,j].set_yticklabels([])
+                ax[i,j].set_xlabel(column_headers[j])
+                ax[i,j].set_ylabel('')            
+            else:
+                ax[i,j].set_xticklabels([])
+                ax[i,j].set_xlabel('')            
+                ax[i,j].set_yticklabels([])
+                ax[i,j].set_ylabel('')
+plt.show()
+plt.close()
+ 
+plt.figure()
+plt.xlabel("Validation examples")
+plt.ylabel("Score")
+ 
+v_train_scores_mean = np.mean(v_train_scores, axis=1)
+v_train_scores_std = np.std(v_train_scores, axis=1)
+v_test_scores_mean = np.mean(v_test_scores, axis=1)
+v_test_scores_std = np.std(v_test_scores, axis=1)
+ 
+plt.fill_between(param_range, v_train_scores_mean - v_train_scores_std, v_train_scores_mean + v_train_scores_std, alpha=0.1, color="orange")
+plt.fill_between(param_range, v_test_scores_mean - v_test_scores_std, v_test_scores_mean + v_test_scores_std, alpha=0.1, color="purple")plt.plot(param_range, v_train_scores_mean, 'o-', color="orange", label="Training score")
+ 
+plt.plot(param_range, v_test_scores_mean, 'o-', color="purple", label="Cross-validation score")
+ 
+plt.legend(loc="best")
+plt.show()
+plt.close()
+\end{lstlisting}
 
 \vskip 0.2in
 \bibliography{main}
