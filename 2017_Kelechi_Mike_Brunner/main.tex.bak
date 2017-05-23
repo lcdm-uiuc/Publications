@@ -2,7 +2,7 @@
 \usepackage{jair, theapa, rawfonts}
 \usepackage{graphicx}  % include figures
 \usepackage{amsmath}  % for centering equations
-\jairheading{?}{2017}{1-??}{5/17}{M/YY}
+\jairheading{59}{2017}{?-??}{5/17}{M/YY}
 \ShortHeadings{Standard Machine Learning Language}
 {Ikegwu, Hao, \& Brunner}
 \firstpageno{1}
@@ -30,7 +30,7 @@
 
 
 \begin{abstract}
-Standard Machine Learning Language (SML) is a language agnostic framework that integrates a query-like language to simplify the development of machine learning pipelines. Emphasis was placed on ease of use and abstracting the complexities of machine learning from the end user encouraging it's use in professional and academic settings for a variety of disciplines. SML's architecture is discussed, followed by multiple interfaces that one could use to interact with SML. We then apply SML to a few problems and compare the complexities of SML queries and traditional approaches used to solve problems. Lastly we perform a case study on SML.
+Standard Machine Learning Language (SML) is a language agnostic framework that integrates a query-like language to simplify the development of machine learning pipelines. Emphasis was placed on ease of use and abstracting the complexities of machine learning from the end user encouraging it's use in professional and academic settings for a variety of disciplines. SML's architecture is discussed, followed by multiple interfaces that one could use to interact with SML. Lastly, SML is applied to a few problems and the  complexities of SML query's and traditional approaches used to solve problems are compared and discussed.
 \end{abstract}
 
 \section{Introduction}
@@ -274,7 +274,7 @@ Figure \ref{fig:SML:AutoMPGQuery} shows the SML \(Query\) required to perform re
 \begin{figure}
 \includegraphics[width=0.99\textwidth]{figs/auto-mpg-results.png}
 \centering
-\caption{The SML \(Query\) in Figure \ref{fig:SML:AutoMPGQuery}  and the code in Figure \ref{fig:Manual:Auto-MPG} produce these results. The subgraph on the left is a lattice plot showing the density estimates of each feature used. The the centered shows the learning curve of the model and the graph on right shows the validation curve.}
+\caption{The SML \(Query\) in Figure \ref{fig:SML:AutoMPGQuery}  and the code in Figure \ref{fig:Manual:Auto-MPG} produce these results. The subgraph on the left is a lattice plot showing the density estimates of each feature used. The the top right graph shows the learning curve of the model and the graph on lower right shows the validation curve.}
 \label{fig:AutoMPG:Results}
 \end{figure}
 
@@ -288,7 +288,8 @@ To summarize we introduced an agnostic framework that integrates a query-like la
 If we want to researchers from other domain areas to utilize machine learning without understanding the complexities required for machine learning a tool like SML is needed. The concepts presented in this paper as a whole is sound. The details may change but the core principals will remain the same. Abstracting the complexities of machine learning from usersis appealing because this will increase the use of machine learning by researchers in different disciplines.
 
 
-%\acks{acknowledgments go here}
+\acks{We acknowledge support from the National Science Foundation Grant No. AST-1313415. RJB acknowledges support as an Associate within the Center for Advanced Study at the University of Illinois.}
+
 %\appendix
 %\section*{Appendix X...}
 %Appendix goes here if needed.
