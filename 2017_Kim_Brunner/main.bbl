@@ -1,0 +1,176 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{Alam et~al.,}{Alam
+  et~al.}{2015}]{alam2015eleventh}
+Alam S.,  et~al., 2015, \ApJSupp, 219, 12
+
+\bibitem[\protect\citeauthoryear{Ball, Brunner  \& Tcheng}{Ball
+  et~al.}{2006}]{ball2006robust}
+Ball N.~M.,  Brunner A.~D.~Myers A.~D.,   Tcheng D.,  2006, \apj, 650, 497
+
+\bibitem[\protect\citeauthoryear{Dai, Yang, Yang, Cohen  \& Salakhutdinov}{Dai
+  et~al.}{2017}]{dai2017good}
+Dai Z.,  Yang Z.,  Yang F.,  Cohen W.~W.,   Salakhutdinov R.,  2017, arXiv
+  preprint arXiv:1705.09783
+
+\bibitem[\protect\citeauthoryear{Dawson et~al.,}{Dawson
+  et~al.}{2012}]{dawson2012baryon}
+Dawson K.~S.,  et~al., 2012, The Astronomical Journal, 145, 10
+
+\bibitem[\protect\citeauthoryear{DeGroot \& Fienberg}{DeGroot \&
+  Fienberg}{1983}]{degroot1983comparison}
+DeGroot M.~H.,  Fienberg S.~E.,  1983, The statistician, pp 12--22
+
+\bibitem[\protect\citeauthoryear{Eisenstein et~al.,}{Eisenstein
+  et~al.}{2011}]{eisenstein2011sdss}
+Eisenstein D.~J.,  et~al., 2011, \aj, 142, 72
+
+\bibitem[\protect\citeauthoryear{Fadely, Hogg  \& Willman}{Fadely
+  et~al.}{2012}]{fadely2012}
+Fadely R.,  Hogg D.~W.,   Willman B.,  2012, \apj, 760, 15
+
+\bibitem[\protect\citeauthoryear{Gal \& Ghahramani}{Gal \&
+  Ghahramani}{2016}]{gal2016dropout}
+Gal Y.,  Ghahramani Z.,  2016, in Balcan M.~F.,  Weinberger K.~Q.,  eds,
+  Proceedings of Machine Learning Research Vol. 48, Proceedings of The 33rd
+  International Conference on Machine Learning. PMLR, New York, New York, USA,
+  pp 1050--1059
+
+\bibitem[\protect\citeauthoryear{Goodfellow, Pouget-Abadie, Mirza, Xu,
+  Warde-Farley, Ozair, Courville  \& Bengio}{Goodfellow
+  et~al.}{2014}]{goodfellow2014generative}
+Goodfellow I.,  Pouget-Abadie J.,  Mirza M.,  Xu B.,  Warde-Farley D.,  Ozair
+  S.,  Courville A.,   Bengio Y.,  2014, in Advances in Neural Information
+  Processing Systems. pp 2672--2680
+
+\bibitem[\protect\citeauthoryear{Hinton, Srivastava, Krizhevsky, Sutskever  \&
+  Salakhutdinov}{Hinton et~al.}{2012}]{hinton2012improving}
+Hinton G.~E.,  Srivastava N.,  Krizhevsky A.,  Sutskever I.,   Salakhutdinov
+  R.~R.,  2012, arXiv preprint arXiv:1207.0580
+
+\bibitem[\protect\citeauthoryear{Kim \& Brunner}{Kim \&
+  Brunner}{2017}]{kim2017star}
+Kim E.~J.,  Brunner R.~J.,  2017, \mnras, 464, 4463
+
+\bibitem[\protect\citeauthoryear{Kim, Brunner  \& Kind}{Kim
+  et~al.}{2015}]{kim2015hybrid}
+Kim E.~J.,  Brunner R.~J.,   Kind M.~C.,  2015, \mnras, 453, 507
+
+\bibitem[\protect\citeauthoryear{Li \& Thakar}{Li \&
+  Thakar}{2008}]{li2008casjobs}
+Li N.,  Thakar A.~R.,  2008, Computing in Science \& Engineering, 10, 18
+
+\bibitem[\protect\citeauthoryear{Lin, Chen  \& Yan}{Lin
+  et~al.}{2013}]{lin2013network}
+Lin M.,  Chen Q.,   Yan S.,  2013, in Proceddings of the International
+  Conference on Learning Representations.
+
+\bibitem[\protect\citeauthoryear{{Lupton}, {Gunn}  \& {Szalay}}{{Lupton}
+  et~al.}{1999}]{lupton1999modified}
+{Lupton} R.~H.,  {Gunn} J.~E.,   {Szalay} A.~S.,  1999, \aj, 118, 1406
+
+\bibitem[\protect\citeauthoryear{Miller, Kulkarni, Cao, Laher, Masci  \&
+  Surace}{Miller et~al.}{2017}]{miller2017preparing}
+Miller A.,  Kulkarni M.,  Cao Y.,  Laher R.,  Masci F.,   Surace J.,  2017,
+  \AJ, 153, 73
+
+\bibitem[\protect\citeauthoryear{Murphy}{Murphy}{2012}]{murphy2012machine}
+Murphy K.~P.,  2012, Machine learning: a probabilistic perspective.
+MIT press
+
+\bibitem[\protect\citeauthoryear{Mustafa, Bard, Bhimji, Al-Rfou  \&
+  Luki{\'c}}{Mustafa et~al.}{2017}]{mustafa2017creating}
+Mustafa M.,  Bard D.,  Bhimji W.,  Al-Rfou R.,   Luki{\'c} Z.,  2017, arXiv
+  preprint arXiv:1706.02390
+
+\bibitem[\protect\citeauthoryear{Odena}{Odena}{2016}]{odena2016semi}
+Odena A.,  2016, in Proceedings of the International Conference on Machine
+  Learning.
+
+\bibitem[\protect\citeauthoryear{Odewahn, Stockwell, Pennington, Humphreys  \&
+  Zumach}{Odewahn et~al.}{1992}]{odewahn1992automated}
+Odewahn S.~C.,  Stockwell E.~B.,  Pennington R.~L.,  Humphreys R.~M.,   Zumach
+  W.~A.,  1992, \aj, 103, 318
+
+\bibitem[\protect\citeauthoryear{Paterno}{Paterno}{2004}]{paterno2004calculating}
+Paterno M.,  2004, Technical report, Calculating efficiencies and their
+  uncertainties.
+United States. Department of Energy
+
+\bibitem[\protect\citeauthoryear{Ravanbakhsh, Lanusse, Mandelbaum, Schneider
+  \& Poczos}{Ravanbakhsh et~al.}{2017}]{ravanbakhsh2017enabling}
+Ravanbakhsh S.,  Lanusse F.,  Mandelbaum R.,  Schneider J.,   Poczos B.,  2017,
+  in Proceedings of the Thirty-First AAAI Conference on Artificial
+  Intelligence.
+
+\bibitem[\protect\citeauthoryear{Ross et~al.}{Ross
+  et~al.}{2011}]{ross2011ameliorating}
+Ross A.~J.,  et~al., 2011, \mnras, 417, 1350
+
+\bibitem[\protect\citeauthoryear{Rowe et~al.,}{Rowe
+  et~al.}{2015}]{rowe2015galsim}
+Rowe B.,  et~al., 2015, Astronomy and Computing, 10, 121
+
+\bibitem[\protect\citeauthoryear{Salimans \& Kingma}{Salimans \&
+  Kingma}{2016}]{salimans2016weight}
+Salimans T.,  Kingma D.~P.,  2016, in , Advances in Neural Information
+  Processing Systems.
+pp 901--909
+
+\bibitem[\protect\citeauthoryear{Salimans, Goodfellow, Zaremba, Cheung, Radford
+   \& Chen}{Salimans et~al.}{2016}]{salimans2016improved}
+Salimans T.,  Goodfellow I.,  Zaremba W.,  Cheung V.,  Radford A.,   Chen X.,
+  2016, in Advances in Neural Information Processing Systems. pp 2226--2234
+
+\bibitem[\protect\citeauthoryear{Schawinski, Zhang, Zhang, Fowler  \&
+  Santhanam}{Schawinski et~al.}{2017}]{schawinski2017generative}
+Schawinski K.,  Zhang C.,  Zhang H.,  Fowler L.,   Santhanam G.~K.,  2017,
+  \mnrasl, 467, L110
+
+\bibitem[\protect\citeauthoryear{{Schlegel}, {Finkbeiner}  \&
+  {Davis}}{{Schlegel} et~al.}{1998}]{schlegel1998maps}
+{Schlegel} D.~J.,  {Finkbeiner} D.~P.,   {Davis} M.,  1998, \apj, 500, 525
+
+\bibitem[\protect\citeauthoryear{Silverman}{Silverman}{1986}]{silverman1986density}
+Silverman B.~W.,  1986, CRC press, 26
+
+\bibitem[\protect\citeauthoryear{Soumagnac et~al.}{Soumagnac
+  et~al.}{2015}]{soumagnac2013star}
+Soumagnac M.~T.,  et~al., 2015, \mnras, 450, 666
+
+\bibitem[\protect\citeauthoryear{Springenberg}{Springenberg}{2016}]{springenberg2016unsupervised}
+Springenberg J.~T.,  2016, in Proceedings of the International Conference on
+  Learning Representations.
+
+\bibitem[\protect\citeauthoryear{Theis, van~den Oord  \& Bethge}{Theis
+  et~al.}{2016}]{theis2016note}
+Theis L.,  van~den Oord A.,   Bethge M.,  2016, in International Conference on
+  Learning Representations.
+
+\bibitem[\protect\citeauthoryear{Wilk \& Gnanadesikan}{Wilk \&
+  Gnanadesikan}{1968}]{wilk1968probability}
+Wilk M.~B.,  Gnanadesikan R.,  1968, Biometrika, 55, 1
+
+\bibitem[\protect\citeauthoryear{York et~al.,}{York
+  et~al.}{2000}]{york2000sloan}
+York D.~G.,  et~al., 2000, \aj, 120, 1579
+
+\makeatother
+\end{thebibliography}
