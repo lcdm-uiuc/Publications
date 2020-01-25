@@ -11,7 +11,7 @@
 
 To obtain the data used in "PyIF: A Fast and Light Weight Implementation to Estimate Bivariate Transfer Entropy for Big Data" You can download the compressed datasets and script to create the datasets from: https://uofi.box.com/s/p8jwx4g8dlcbfj2pjjt9caoh9d54qsno
 
-Move the compressed dataset "PaperData" to the same directory as this README.md document and uncompress it so that the scripts work correctly.
+Move the compressed file "PaperData.zip" to the same directory as this README.md document and uncompress it so that the scripts work correctly.
 
 ---
 
