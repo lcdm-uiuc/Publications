@@ -1,0 +1,18 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Applications of Transfer Entropy}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Outline}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Definition of Transfer Entropy}{}% 4
+\BOOKMARK [1][-]{section.3}{Estimating Transfer Entropy}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Kernel Density Estimator}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Kraskov Estimator}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Additional Estimators}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{PyIF}{}% 9
+\BOOKMARK [1][-]{section.5}{Comparative Analysis}{}% 10
+\BOOKMARK [2][-]{subsection.5.1}{IDTxl}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.2}{TransEnt}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.3}{RTransferEntropy}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.4}{Transfer Entropy Toolbox}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.5}{Data}{section.5}% 15
+\BOOKMARK [1][-]{section.6}{Results}{}% 16
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 17
+\BOOKMARK [1][-]{section*.2}{References}{}% 18
