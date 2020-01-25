@@ -2,7 +2,7 @@
 
 ---
 
-##### This directory contains the code and data required to run the comparative analyses in "PyIF: A Fast and Light Weight Implementation to Estimate Bivariate Transfer Entropy for Big Data"
+##### This directory contains the code required to run the comparative analyses in "PyIF: A Fast and Light Weight Implementation to Estimate Bivariate Transfer Entropy for Big Data"
 
 ---
 
