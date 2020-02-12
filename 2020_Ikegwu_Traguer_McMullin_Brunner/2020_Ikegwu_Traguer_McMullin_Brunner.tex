@@ -15,7 +15,7 @@
 \begin{document}
 
 \title{PyIF: A Fast and Light Weight Implementation to Estimate Bivariate Transfer Entropy for Big Data
-%\thanks{Identify applicable funding agency here. If none, delete this.}
+\thanks{978-1-7281-6861-6/20/\$31.00 ©2020 IEEE}
 }
 
 \author{\IEEEauthorblockN{Kelechi M. Ikegwu}
@@ -55,7 +55,7 @@ Transfer Entropy, Parallel Processing
 
 \section{Introduction}
 
-Information theory provides a framework for studying the quantification, storage, and communication of information \cite{InfoTheoryApplications}.  This theory defines entropy as the amount of uncertainty or disorder in a random process. Mutual Information is another measure in this theory which quantifies the amount of information shared across random variables. While similar to mutual information, transfer entropy (TE) also considers the dynamics of information and how these dynamics evolves in time.\cite{IntroToTransferEntropy}. Put simply, TE quantifies the reduction in uncertainty in one random process from knowing past realizations of another random process. This is a particularly useful property of TE as many real-world phenomena, from stock market prices to neural signals, are dynamic processes evolving in time. TE is also an asymmetric measure of information transfer. Ergo, TE computed from process \(A\) to process \(B\) may yield a different result than TE computed from \(B\) to \(A\). The information theoretic framework and these measures have led to a variety of applications in different research areas \cite{InfoTheoryApplications}, \cite{TEBook}.
+Information theory provides a framework for studying the quantification, storage, and communication of information \cite{InfoTheoryApplications}.  This theory defines entropy as the amount of uncertainty or disorder in a random process. Mutual Information is another measure in this theory which quantifies the amount of information shared across random variables. While similar to mutual information, transfer entropy (TE) also considers the dynamics of information and how these dynamics evolves in time \cite{IntroToTransferEntropy}. Put simply, TE quantifies the reduction in uncertainty in one random process from knowing past realizations of another random process. This is a particularly useful property of TE as many real-world phenomena, from stock market prices to neural signals, are dynamic processes evolving in time. TE is also an asymmetric measure of information transfer. Ergo, TE computed from process \(A\) to process \(B\) may yield a different result than TE computed from \(B\) to \(A\). The information theoretic framework and these measures have led to a variety of applications in different research areas \cite{InfoTheoryApplications}, \cite{TEBook}.
 
 
 \subsection{Applications of Transfer Entropy}
@@ -65,7 +65,7 @@ TE is particularly useful for detecting information transfer in financial market
 Network Inference is another application area of TE. An objective of network inference is to infer a network by indentifying relationships between individual processes in the data. Computational neuroscience, financial market analysis, gene regulatory networks, social media, and multi-agent systems are areas where TE has been used to model networks. Early approaches that used TE for  network inference either measure pairwise TE between all pairs of variables in a network or threshold the TE values to select connections between nodes in a network \cite{NetworkTEApp1}, \cite{NetworkTEApp2}, and \cite{NetworkTEApp3}. Recent approaches have used statistical significance tests of pairwise TE to determine whether links exist \cite{NetworkTEApp4} and \cite{NetworkTEApp5}. \cite{TEBook} offers more examples of TE applications.
 
 \subsection{Outline}
-In the next section we formally define TE. The following section discusses TE estimation methods. We then discuss our our proposed implementation called PyIF to estimate bivariate TE. Next, we describe a comparative analysis between PyIF and existing implementations that estimate bivariate TE. Lastly, we conclude the paper with a discussion and future work.
+In the next section we formally define TE. The following section discusses TE estimation methods. We then discuss our proposed implementation called PyIF to estimate bivariate TE. Next, we describe a comparative analysis between PyIF and existing implementations that estimate bivariate TE. Lastly, we conclude the paper with a discussion and future work.
 
 
 \section{Definition of Transfer Entropy}
@@ -74,10 +74,10 @@ In 2000, Schreiber \cite{IntroToTransferEntropy} discovered TE and coined the na
 
 TE considers the shared history between two processes via conditional mutual information. Specifically, TE conditions on the past of \(X_t\) to remove any redundant or shared information between \(X_t\) and its past. This also removes any information in the process \(Y\) about \(X\) at time \(t\) that is in the past of \(X\) \cite{b359}. Transfer entropy \(T\) (where the transfer of information occurs from \(Y\) to \(X\)) can be defined as:
 \begin{equation}
-T_{Y \rightarrow X} (t) \equiv I(X_t: Y_{t-k} |  X_{t-k}).
+T_{Y \rightarrow X} (t) \equiv I(X_t: Y_{t-k} |  X_{t-k})
 \end{equation}
 
-Kraskov \cite{kraskovEstimator} shows that transfer entropy can be expressed as the difference between two conditional mutual information computations: \begin{equation} T_{Y \rightarrow X}(t) = I(X_t | X_{t-k}, Y_{t-k}) -  I(X_t | X_{t-k})  \end{equation} .
+\noindent Kraskov \cite{kraskovEstimator} shows that transfer entropy can be expressed as the difference between two conditional mutual information computations: \begin{equation} T_{Y \rightarrow X}(t) = I(X_t | X_{t-k}, Y_{t-k}) -  I(X_t | X_{t-k})  \end{equation} .
 
 The intuition of this definition is that TE measures the amount of information in \(Y_{t-k}\) about \(X_t\) after  considering the information in \(X_{t-k}\) about \(X_t\). Put differently, TE quantifies the reduction in uncertainty about \(X_t\) from knowing \(Y_{t-k}\) after considering the reduction in uncertainty about \(X_t\) from knowing \(X_{t-k}\).
 
@@ -102,7 +102,7 @@ Transfer Entropy can be estimated using k-nearest neighbors \cite{kraskovEstimat
 
 \begin{equation}\hat{H}(X) = - \frac{1}{n} \sum^n_{i=1} ln \hat{p}(x_i) \end{equation}
 
-Kraskov et al. expanded this definition to estimate entropy to:
+\noindent Kraskov et al. expanded this definition to estimate entropy to:
 
 \setlength{\arraycolsep}{0.0em}
 \begin{eqnarray}
